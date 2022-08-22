@@ -1,0 +1,356 @@
+
+
+CL04K
+クラス 15
+まとめ & 期末テスト  - Brainstorming & Exam.   
+問	提出数 
+(未補足数)
+ 1	（10点 / 10 score） 課題#2で計算したマウス増産モデルにおいて、 B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m c'(t) = g*(1-1/n(t)) と与えられるときに、Birth -> Predation -> Migration -> Census の順番として、再帰方程式　n(t+1) = F(n(t),b,d,m,g)を求めよ。また、その変化を可視化するMATLAB programing code を入力すること。 According to the assignment #2, reconsider the mouse model and derive the recursion equation n(t+1) = F(n(t),b,d,m,g) with the following following order, Birth -> Predation -> Migration -> Census which are defined by B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m where c'(t) = g*(1-1/n(t)). In addition, make a MATLAB programing code to visualize the time course of the model.	27(0)
+ 2	（3点 / 3 score）ラグランジュ補間とスプライン補間の数学的な差異について述べよ。 Describe mathematical differences between Lagrange interpolation and spline interpolation.	27(0)
+ 3	（10点 / 10 score） 課題 #4で計算した3次自然スプライン補間関数を次の表を満たすように求めよ．また，同じデータからラグランジュの補間関数を求めよ．最終的に、それら二つの関数をプロットするMATLAB codeを入力せよ。（数式とプログラムは「=====」などで分けること） According to the assignment #4, derive the cubic (3rd order) spline interpolation formula that fit for the given data. In addition, derive the Lagrange interpolation formula for the same data. In addition, please make a matlab programming code to visualize both equations as the graph. （split equatios and programming codes by a line such as "====="）
+xjfj0011233240
+x
+j
+0	1	2	3	4
+f
+j
+0	1	3	2	0
+27(0)
+ 4	（3点 / 3 score） あるベジェ曲線が与えられたとする。その曲線をスプライン曲線で再現できるか？　できるなら例を一つ挙げ、出来ないならその数学的根拠を説明せよ。 Suppose there is a Bzier curve, is it possible to reconstruct a spline curve? If it is possible, show an example in both sides. If it is impossible, describe a mathematical reason why it is impossible.	27(0)
+ 5	（2点 / 2 score）以下の方程式に当てはまるものは何か。What kind of a equation is the following one?
+Qk(n,d)=∑i=1[n/k][n!d!diki!(k!)i(n−ik)!(d−i)!∑j=1k−1Qj(n−ik,d−i)(d−i)n−ikdn−ik]
+Q
+k
+n
+d
+i
+1
+n
+k
+n
+d
+d
+i
+k
+i
+k
+i
+n
+i
+k
+d
+i
+j
+1
+k
+1
+Q
+j
+n
+i
+k
+d
+i
+d
+i
+n
+i
+k
+d
+n
+i
+k
+27(0)
+ 6	（5点 / 5 score）任意の微分方程式を自由に定義し、下記の４種でそれぞれTex記述せよ。複雑である程高い配点とする。 Define an arbitrary equation, and describe it in following four types. Complex one gets a high score. 1) ライプニッツの記法	Leibniz's notation 2) ラグランジュの記法	Lagrange's notation 3) オイラーの記法	Euler's notation 4) ニュートンの記法 Newton's notation	27(0)
+ 7	（10点 / 10 score）次の定積分を、積分区間を10等分してシンプソンの公式を用いて求めよ。 By using the Simpson's equation with 10 divided integral parts, obtain the value.
+∫011−x2‾‾‾‾‾‾√dx
+1
+0
+1
+x
+2
+d
+x
+27(0)
+ 8	（5点 / 5 score）微分方程式の解法であるホイン法の基礎方程式は、偏微分法を用いて得られている。それは何故か。 In the process to obtain the basic equation of Heun's method for solving differential equations, partial differentials are necessary. Why?	27(0)
+ 9	（10点 / 10 score） 課題 #5において、原点からP点までの長さを３に変更した場合、式(3.83)と同様に拘束式を求めよ。また、このヤコビアンを求め、入力せよ。（TeX 形式で入力すること） According to the assignment #5, derive the constraint equation set (such as equation 3.83) and its Jacobian matrix (both equations should be typed in the TeX format)	27(0)
+ 10	（10点 / 10 score） 課題 #7において、body 2の長さを全体で3、body 3の長さを全体で2とした場合の拘束式を求めよ。また、この場合の速度方程式、加速度方程式を求めて求めて入力せよ。（TeX 形式で入力すること） According to the assignment #7, derive the constraint equation set (such as equation 3.83) if lengths of the body 2 and 3 are 3 (the whole length) and 2 (the whole length) and its velocity acceleration equations (both equations should be typed in the TeX format).	27(0)
+ 11	（10点 / 10 score） 上述問題10において、機構の動きを可視化するMATLAB programming codeを作成せよ。 According to the above question 10, make a MATLAB programming code to visualize the kinematic movement as a moving picture.	27(0)
+ 12	（10点 / 10 score） 課題#10「Multilevel modeling of physiological system using dynamical system and PhysioDesigner」(p.27- 34)の　Fitzhugh - Nagumo model　についてPhysioDesignerで、PHMLモジュールを作成し、シミュレーション実験したものを、２個のユニットから３個のユニットに拡張して、PHMLモジュールを作成すること。コードは以下にそのままペーストしてよい。 According to assignment #10 "Multilevel modeling of physiological system using dynamical system and PhysioDesigner" (p. 27-34), make the PHML model as the module in PhysioDesigner, extend the model from 2 unit version (as you tested) to 3 unit version. Type the PHML code like the following: ＜?xml version="1.0" encoding="UTF-8" standalone="no"?＞ ＜is:insilico-model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:svg="http://www.w3.org/2000/svg" xmlns:is="http://www.physiome.jp/ns/insilicoml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:m="http ://www.w3.org/1998/Math/MathML" xmlns:pd="http://www.physiodesigner.org/2012/ns/physiodesigner/1.0" version="1.0" xsi:schemalocation="http://www.physiome.jp/ns/insilicoml-1.0 insilicoml.xsd"＞ ＜is:header＞ ＜is:model-name＞damping oscillation＜/is:model-name＞ ＜is:meta-information＞ ＜is:article-set/＞ ＜is:creator-set/＞ ...	27(0)
+ 13	（5点 / 5 score） 課題13 (1) を参考にして、次の真理値表を完成すること。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式（表）で入力し適切に表示されることを確認すること。 According to assignment #13-1, "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.15)　[you can see the example of the description in the PPT file] type the TeX (Table) format in the KWM input box below, to fulfill empty box in the table by calculating the symbolic logic expression, such as
+pTTFFqTFTF¬p    p→¬q    ¬q→¬p    p∨¬p    
+p	q	¬p	p¬q	¬q¬p	p¬p
+T	T	 	 	 	 
+T	F	 	 	 	 
+F	T	 	 	 	 
+F	F	 	 	 	 
+27(0)
+ 14	（5点 / 5 score） 課題13(2)を参考にしての以下の5つの例文を論理記述式で書け。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式で入力し適切に表示されることを確認すること。 According to assignment #13-2, such as "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.19)　　[you can see the example of the description in the PPT file] type the TeX format in the KWM input box below, to answer the following 5 questions by describing the symbolic logic expression, such as
+∃x¬like(MOTHER(Satoshi),x)
+∃
+x
+¬
+l
+i
+k
+e
+M
+O
+T
+H
+E
+R
+S
+a
+t
+o
+s
+h
+i
+x
+You need to use TeX description for preparing the exam. ===== ex. 1) 私は高速道路を走っている（私は車に乗っており、その車は高速道路を走っている） I'm running on the highway by a car ex. 2) 私は辞書もペンも両方持っている I have a dictionary and a pen ex. 3) 食事を摂らない人間は生きていくことができない All human dead if the one does not take any food. ex. 4) 髪のない人間は髪を触れることができない No one exists to touch the own hair if there is no hair. ex. 5) 飛べない鳥もいる A bird exists which cannot fly. ================ (*1) Table of contents http://ai.tanichu.com/slide_template Slideshow https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhaXdpdGhpbGx1c3RyYXRpb258Z3g6MWFlMWRiMzViYjljMDZlYg	27(0)
+点数のヒストグラム
+未評価
+0-10
+11-20
+21-30
+31-40
+41-50
+51-60
+61-70
+71-80
+81-90
+91-100
+0.0
+7.5
+15.0
+22.5
+30.0
+点数
+人数
+Value
+未評価	0
+0-10	27
+11-20	0
+21-30	0
+31-40	0
+41-50	0
+51-60	0
+61-70	0
+71-80	0
+81-90	0
+91-100	0
+問 2	（3点 / 3 score）ラグランジュ補間とスプライン補間の数学的な差異について述べよ。 Describe mathematical differences between Lagrange interpolation and spline interpolation.
+
+almassri ahmed, 2016-06-02 11:09 提出 
+自由記述式
+Spline interpolation uses all of the available data to construct a cubic between each pair of points that has is continuous with continuous first and second derivatives. but the  lagrange interpolation simply interpolates with a cubic polynomial the two points below the region and the two points above the region.  The function is continuous at each point, but even the first derivative is not. 
+
+one more thing,  High-degree polynomials have an oscillatory character and are therefore not ever suitable as interpolation functions. Also, In order to arrive at a smooth interpolation a cubic spline is often used.
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+渡辺 龍二, 2016-06-02 11:13 提出 
+自由記述式
+前者は与えられた点をすべて通るひとつの多項式を求めることを試みる。
+後者は隣り合う点のペアに対してひとつの多項式をあてはめる。そのため多項式は区間ごとに複数あらわれる。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+岩武 澄, 2016-06-02 11:27 提出 
+自由記述式
+ラグランジュ補間は、多項式を用いて補間するが、このときの関数は、連続な関数で補間するため、補間の点数が多くなるほど関数が振動してしまう。
+スプライン補間は、補間領域をデータ間隔で区切り、その区間のデータ値を低い次元の多項式で補完する。そのため、式は区分的な関数となり、いくつかの式を用いて補間することとなる。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+福島 克, 2016-06-02 11:42 提出 
+自由記述式
+ラグランジュ補間はデータ点数が増えてくると関数が振動し、補間の精度が悪くなる点があげられる。スプライン補間は、補間する領域をデータ間隔[xi,xi+1]に区切り、その近傍の値を使い低次の多項式で近似することで実現する。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+嘉嶋 賢二, 2016-06-02 12:00 提出 
+自由記述式
+ラグランジュ補間ではひとつの式で補間を行うため計算が単純であるが補間の点数が増えると大きな振動が発生し、補間することが出来ない。
+それに対しスプライン補間では、補間領域を分割することで各領域の低次の多項式で近似を行うことが出来る。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+富永 萌子, 2016-06-02 12:00 提出 
+自由記述式
+ラグランジュ補間では補間の点数が増加すると、補間関数が振動してしまい使えなくなるので、補間したい領域をいくつかに区切り、その近傍の値を使用して低次の多項式で近似する。その際に、各区分と区分の境界で導関数が不連続にならないよう、上手くする方法がスプライン補間。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+吉田 裕貴, 2016-06-02 12:00 提出 
+自由記述式
+ラグランジュ補間は多項式の形で表され、
+スプライン補間はある区間ごとに近似する関数がことなる。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+藤田 啓斗, 2016-06-02 12:01 提出 
+自由記述式
+3次式のときスプライン補間は２点の値と微分系数値(f(x2),f'(x2),f(x3),f'(x3))から補間式を導いており、プロットすると滑らかにつながる。ラグランジュ補間では４点(x1,x2,x3,x4)の値(f(x1),f(x2),f(x3),f(x4))から補間式を導いている。
+そのため微小変化量がことなってしまう。
+それぞれの多項式は以下のようになる
+スプラインの補間多項式
+S(x)=Mj/6hj(xj+1-x)^3+Mj+1/6hj(x-xj)^3+(fj-Mjhj^2/6)(xj+1-x)/h+(fj+1-Mj+1hj^2/6)(x-xj)/hj
+ラグランジュの補間多項式
+Li(x)=(x-x0)....(x-xi-1)(x-xi+1)...(x-xn)/(xi-x0)....(xi-xi-1)(xi-xi+1)....(xi-xn)
+評価（100点満点） 3点
+[全体公開]○(我妻 広明)
+
+木山 雄太, 2016-06-02 12:01 提出 
+自由記述式
+ラグランジュ補間は与えられているすべての点から補間関数を導出するが、スプライン補間は区間を区切ってそれぞれに補間関数を導出する。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+朝比奈 涼, 2016-06-02 12:01 提出 
+自由記述式
+3次式の近似は、スプライン補間は2点の値と微分係数値(f(x2),f`(x2),f(x3),f`(x3))から補間式を導いており、
+プロットすると滑らかに表示される。ラグランジュ補間では4点(x1,x2,x3,x4)の値(f(x1),f(x2),f(x3),f(x4))から
+補間式を導いている。つまり、微小変化の量に違いがある
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+JOSHI RAVI PRAKASH, 2016-06-02 12:01 提出 
+自由記述式
+Spline interpolation uses all of the available data to construct a cubic between each pair of points that has is continuous with continuous first and second derivatives. Lagrange interpolation simply interpolates with a cubic polynomial the two points below the region and the two points above the region.  The function is continuous at each point, but even the first derivative is not.  
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+齊藤 明王, 2016-06-02 12:02 提出 
+自由記述式
+ラグランジュ補間とスプライン補間の数学的な差異は、補間式の導き方である。スプライン補間は2点の値と微分系数値から、ラグランジュ補間は4点の値から補間式を導いている。
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+大濵 勇平, 2016-06-02 12:02 提出 
+自由記述式
+スプライン補間では、データ間隔 [x(i),x(i+1)]に区切り、区分的に近似関数を求めて補間する方法である。
+ラグランジュ補間では、N個のデータx(0),x(1),・・・,x(N)が与えられた際、全ての点を通る関数を求める方法である。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+水谷 龍希, 2016-06-02 12:02 提出 
+自由記述式
+ラグランジュの補間多項式は一つの多項式で補間するのに対し、スプライン補間は区間毎に区切って複数の多項式で補間する方法。
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+渡辺 裕司, 2016-06-02 12:02 提出 
+自由記述式
+ラグランジュ補間は１つの多項式で補間するのに対して、スプライン補間は区間毎に区切って複数の多項式で補間する。
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+松山 公弥, 2016-06-02 12:02 提出 
+自由記述式
+互いに異なる n + 1 個の点 x0, x1, ..., xn に対して、関数値 f(x0), f(x1), ..., f(xn) が与えられているとする。ここで pn(xi) = f(xi) (i = 0, 1, ..., n) を満たす x の n 次多項式 pn(x) を以下の式で求め、これを用いて f(x) の補間を行うことをラグランジュ補間という。
+ラグランジュ補間では、データ点数が増えてくると関数が振動し問題が発生する。そこで、補間する領域をデータ間隔 $ [x_i,x_{i+1}]$に区切り、その近 傍の値を使い低次の多項式で近似することをスプライン補間という。
+評価（100点満点） 3点
+[全体公開]○(我妻 広明)
+
+森 逸平, 2016-06-02 12:02 提出 
+自由記述式
+ラグランジュ補間はデータの点数が増大することにより振動が生じて，保管できなくなる場合が存在する．そのとき，データ間隔により領域を区切り，近傍の値を用いて低次の多項式により近似することを考える．区分して近似関数を使う導関数が連続になるようにする方法がスプライン補間である．
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+日巻 智貴, 2016-06-02 12:02 提出 
+自由記述式
+ラグランジュ補間はn次の多項式で表現される式であり、一方スプライン補間は低次の多項式で表現できる。
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+黒岩 将, 2016-06-02 12:02 提出 
+自由記述式
+ラグランジュ補間はひとつの多項式を用いて補間を行うが、スプライン補間は区間ごとに区切った後複数の多項式から補間を行う。
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+石田 琢朗, 2016-06-02 12:02 提出 
+自由記述式
+ラグランジュ補間は区分[a b]間で等間隔にとった点で台形型に近似して計算する方法だがデータ点が増えてくると関数が振動してしまうのだが、スプライン補間は補間する領域を絞ってその近傍で近似することによって低次の多項式であらわそうというものである。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+中村 優樹, 2016-06-02 12:02 提出 
+自由記述式
+ラグランジュ補間
+平面座標上にN+1個の点がある場合，その全ての点を通る曲線は N次関数で表すことができる。2個の場合には1次関数，すなわち直線で，その2点を通る関数 を決めることができる．3点の場合は，2次関数になる。しかし，補間の点数が増えてくると，大きな振動が発生して補間とはいえなくなる
+
+スプライン補間
+スプライン補間はラグランジュの問題を解決するために補間する領域をデータ区間[xi, xi+1]で区切り、その近傍の値を使い低次の多項式で近似することを考えた。区分的な関数を使うことになるが，上手く近似をしないと境界でその導関数が不連続になる。導関数が連続になるように、上手く近似する方法
+評価（100点満点） 3点
+[全体公開]○(我妻 広明)
+
+藤野 慶汰, 2016-06-02 12:02 提出 
+自由記述式
+3次元で近似すると，スプライン補間は２点の値と微分係数値(f(x2), f'(x2), f(x3), f'(x3))から補間式を導いており，プロットすると滑らかに繋がる．ラグランジュ補間では４点(x1, x2, x3, x4)の値(f(x1), f(x2) f(x3) f(x4))から補間式を導いている．微分変化量が違う．
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+スティナン アナンタラッタナチャイ, 2016-06-02 12:02 提出 
+自由記述式
+The main difference between Lagrange and spline interpolation is that the lagrange interpolation polynomial has discontinuous first derivative at the data points 
+(xi,yi)
+x
+i
+y
+i
+, but the spline interpolation polynomial has guarantee of smoothness at the level of first and second derivatives at the data points.
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+鳴海 和, 2016-06-02 12:03 提出 
+自由記述式
+ラグランジュ補間について
+・基本的な考え方
+ある物理量を測定してN+1個の値が得られたとする。それらは、  （x_0,y_0),(x_1,y_1),(x_2,y_2)…,(x_N,y_N)の2次元座標で 示すことができる。
+この全ての点を通る関数を求めることが補間法である。N次関数を使って書くと
+y=a_0+a_1x+a_2x^2+…+a_ix^i+…+a_Nx^N
+と補間する。この係数a_iを求めれば、補間の関数が求められたことになる。
+この係数は、N+1元の連立1次方程式を解くことにより求めることができる。
+・問題点
+補間の点数が増えてくると、ラグランジュの補間には問題が生じ、グラフにすると補間の関数が振動するのだ。
+ラグランジュの補間では、補間の点数が増えてくると大きな振動が発生して、もはや補間とは言えなる。
+つまり、ラグラ ンジュの補間はデータ点数が多い場合は使えない。
+
+スプライン補間について
+ラグランジュの補間については、データ点数が増えてくると関数が振動し問題が発生する。
+そこで、補間する領域をデータ間隔 {x_i,x_{i+1}]に区切り、その近傍の値を使い低次の多項式で近似することを考える。つまり、区分的に近似関数を使うわのである。
+しかし、上手に近似をしないと境界でその導関数が不連続になるので、 導関数が連続になるように上手に近似する方法がスプライン補間である。 
+ 
+以上より、ラグランジュの補間とスプライン補間の差異とは
+・扱えるデータ数の違い
+・データを区切り、区分的に近似関数を使うところ
+である。
+評価（100点満点） 3点
+[全体公開]○(我妻 広明)
+
+萩尾 元晴, 2016-06-02 12:03 提出 
+自由記述式
+ラグランジュ補間はデータが増えてると関数が振動して問題ができるが、スプライン補完は区分的に近似することで連続的に近似ができる
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+Thewsuwan Srisupang, 2016-06-02 12:04 提出 
+自由記述式
+Spline interpolation is kind of mathematic model the shape of spline. The equation based on how to find the curvature of curve to minimized error (bending), fitting the data. Spline interpolation is often preferred over polynomial interpolation because the interpolation error can be made small even when using low degree polynomials for the spline [Wiki]
+
+Lagrange Interpolation is kind of polynomial interpolation,the polynomial of the least degree that at each point  X assumes the corresponding value Y. The interpolating polynomial of the least degree is unique
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+Labuguen Rollyn, 2016-06-02 12:04 提出 
+自由記述式
+Lagrange interpolation uses two points below and above the region; and interpolates with cubic polynomial. The function is continuous at each point, but even the first derivative is not. Spline interpolation uses all of the available points to construct a cubic between each pair of points that is continuous. The function is continuous at first and second derivatives.
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+
+一括して「評価○・全体公開」にする

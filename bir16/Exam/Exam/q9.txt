@@ -1,0 +1,1389 @@
+
+
+CL04K
+クラス 15
+まとめ & 期末テスト  - Brainstorming & Exam.   
+問	提出数 
+(未補足数)
+ 1	（10点 / 10 score） 課題#2で計算したマウス増産モデルにおいて、 B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m c'(t) = g*(1-1/n(t)) と与えられるときに、Birth -> Predation -> Migration -> Census の順番として、再帰方程式　n(t+1) = F(n(t),b,d,m,g)を求めよ。また、その変化を可視化するMATLAB programing code を入力すること。 According to the assignment #2, reconsider the mouse model and derive the recursion equation n(t+1) = F(n(t),b,d,m,g) with the following following order, Birth -> Predation -> Migration -> Census which are defined by B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m where c'(t) = g*(1-1/n(t)). In addition, make a MATLAB programing code to visualize the time course of the model.	27(0)
+ 2	（3点 / 3 score）ラグランジュ補間とスプライン補間の数学的な差異について述べよ。 Describe mathematical differences between Lagrange interpolation and spline interpolation.	27(0)
+ 3	（10点 / 10 score） 課題 #4で計算した3次自然スプライン補間関数を次の表を満たすように求めよ．また，同じデータからラグランジュの補間関数を求めよ．最終的に、それら二つの関数をプロットするMATLAB codeを入力せよ。（数式とプログラムは「=====」などで分けること） According to the assignment #4, derive the cubic (3rd order) spline interpolation formula that fit for the given data. In addition, derive the Lagrange interpolation formula for the same data. In addition, please make a matlab programming code to visualize both equations as the graph. （split equatios and programming codes by a line such as "====="）
+xjfj0011233240
+x
+j
+0	1	2	3	4
+f
+j
+0	1	3	2	0
+27(0)
+ 4	（3点 / 3 score） あるベジェ曲線が与えられたとする。その曲線をスプライン曲線で再現できるか？　できるなら例を一つ挙げ、出来ないならその数学的根拠を説明せよ。 Suppose there is a Bzier curve, is it possible to reconstruct a spline curve? If it is possible, show an example in both sides. If it is impossible, describe a mathematical reason why it is impossible.	27(0)
+ 5	（2点 / 2 score）以下の方程式に当てはまるものは何か。What kind of a equation is the following one?
+Qk(n,d)=∑i=1[n/k][n!d!diki!(k!)i(n−ik)!(d−i)!∑j=1k−1Qj(n−ik,d−i)(d−i)n−ikdn−ik]
+Q
+k
+n
+d
+i
+1
+n
+k
+n
+d
+d
+i
+k
+i
+k
+i
+n
+i
+k
+d
+i
+j
+1
+k
+1
+Q
+j
+n
+i
+k
+d
+i
+d
+i
+n
+i
+k
+d
+n
+i
+k
+27(0)
+ 6	（5点 / 5 score）任意の微分方程式を自由に定義し、下記の４種でそれぞれTex記述せよ。複雑である程高い配点とする。 Define an arbitrary equation, and describe it in following four types. Complex one gets a high score. 1) ライプニッツの記法	Leibniz's notation 2) ラグランジュの記法	Lagrange's notation 3) オイラーの記法	Euler's notation 4) ニュートンの記法 Newton's notation	27(0)
+ 7	（10点 / 10 score）次の定積分を、積分区間を10等分してシンプソンの公式を用いて求めよ。 By using the Simpson's equation with 10 divided integral parts, obtain the value.
+∫011−x2‾‾‾‾‾‾√dx
+1
+0
+1
+x
+2
+d
+x
+27(0)
+ 8	（5点 / 5 score）微分方程式の解法であるホイン法の基礎方程式は、偏微分法を用いて得られている。それは何故か。 In the process to obtain the basic equation of Heun's method for solving differential equations, partial differentials are necessary. Why?	27(0)
+ 9	（10点 / 10 score） 課題 #5において、原点からP点までの長さを３に変更した場合、式(3.83)と同様に拘束式を求めよ。また、このヤコビアンを求め、入力せよ。（TeX 形式で入力すること） According to the assignment #5, derive the constraint equation set (such as equation 3.83) and its Jacobian matrix (both equations should be typed in the TeX format)	27(0)
+ 10	（10点 / 10 score） 課題 #7において、body 2の長さを全体で3、body 3の長さを全体で2とした場合の拘束式を求めよ。また、この場合の速度方程式、加速度方程式を求めて求めて入力せよ。（TeX 形式で入力すること） According to the assignment #7, derive the constraint equation set (such as equation 3.83) if lengths of the body 2 and 3 are 3 (the whole length) and 2 (the whole length) and its velocity acceleration equations (both equations should be typed in the TeX format).	27(0)
+ 11	（10点 / 10 score） 上述問題10において、機構の動きを可視化するMATLAB programming codeを作成せよ。 According to the above question 10, make a MATLAB programming code to visualize the kinematic movement as a moving picture.	27(0)
+ 12	（10点 / 10 score） 課題#10「Multilevel modeling of physiological system using dynamical system and PhysioDesigner」(p.27- 34)の　Fitzhugh - Nagumo model　についてPhysioDesignerで、PHMLモジュールを作成し、シミュレーション実験したものを、２個のユニットから３個のユニットに拡張して、PHMLモジュールを作成すること。コードは以下にそのままペーストしてよい。 According to assignment #10 "Multilevel modeling of physiological system using dynamical system and PhysioDesigner" (p. 27-34), make the PHML model as the module in PhysioDesigner, extend the model from 2 unit version (as you tested) to 3 unit version. Type the PHML code like the following: ＜?xml version="1.0" encoding="UTF-8" standalone="no"?＞ ＜is:insilico-model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:svg="http://www.w3.org/2000/svg" xmlns:is="http://www.physiome.jp/ns/insilicoml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:m="http ://www.w3.org/1998/Math/MathML" xmlns:pd="http://www.physiodesigner.org/2012/ns/physiodesigner/1.0" version="1.0" xsi:schemalocation="http://www.physiome.jp/ns/insilicoml-1.0 insilicoml.xsd"＞ ＜is:header＞ ＜is:model-name＞damping oscillation＜/is:model-name＞ ＜is:meta-information＞ ＜is:article-set/＞ ＜is:creator-set/＞ ...	27(0)
+ 13	（5点 / 5 score） 課題13 (1) を参考にして、次の真理値表を完成すること。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式（表）で入力し適切に表示されることを確認すること。 According to assignment #13-1, "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.15)　[you can see the example of the description in the PPT file] type the TeX (Table) format in the KWM input box below, to fulfill empty box in the table by calculating the symbolic logic expression, such as
+pTTFFqTFTF¬p    p→¬q    ¬q→¬p    p∨¬p    
+p	q	¬p	p¬q	¬q¬p	p¬p
+T	T	 	 	 	 
+T	F	 	 	 	 
+F	T	 	 	 	 
+F	F	 	 	 	 
+27(0)
+ 14	（5点 / 5 score） 課題13(2)を参考にしての以下の5つの例文を論理記述式で書け。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式で入力し適切に表示されることを確認すること。 According to assignment #13-2, such as "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.19)　　[you can see the example of the description in the PPT file] type the TeX format in the KWM input box below, to answer the following 5 questions by describing the symbolic logic expression, such as
+∃x¬like(MOTHER(Satoshi),x)
+∃
+x
+¬
+l
+i
+k
+e
+M
+O
+T
+H
+E
+R
+S
+a
+t
+o
+s
+h
+i
+x
+You need to use TeX description for preparing the exam. ===== ex. 1) 私は高速道路を走っている（私は車に乗っており、その車は高速道路を走っている） I'm running on the highway by a car ex. 2) 私は辞書もペンも両方持っている I have a dictionary and a pen ex. 3) 食事を摂らない人間は生きていくことができない All human dead if the one does not take any food. ex. 4) 髪のない人間は髪を触れることができない No one exists to touch the own hair if there is no hair. ex. 5) 飛べない鳥もいる A bird exists which cannot fly. ================ (*1) Table of contents http://ai.tanichu.com/slide_template Slideshow https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhaXdpdGhpbGx1c3RyYXRpb258Z3g6MWFlMWRiMzViYjljMDZlYg	27(0)
+点数のヒストグラム
+未評価
+0-10
+11-20
+21-30
+31-40
+41-50
+51-60
+61-70
+71-80
+81-90
+91-100
+0.0
+7.5
+15.0
+22.5
+30.0
+点数
+人数
+Value
+未評価	0
+0-10	27
+11-20	0
+21-30	0
+31-40	0
+41-50	0
+51-60	0
+61-70	0
+71-80	0
+81-90	0
+91-100	0
+問 9	（10点 / 10 score）
+課題 #5において、原点からP点までの長さを３に変更した場合、式(3.83)と同様に拘束式を求めよ。また、このヤコビアンを求め、入力せよ。（TeX 形式で入力すること）
+
+According to the assignment #5, derive the constraint equation set (such as equation 3.83) and its Jacobian matrix (both equations should be typed in the TeX format)
+
+almassri ahmed, 2016-06-02 11:09 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+渡辺 龍二, 2016-06-02 11:13 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+岩武 澄, 2016-06-02 11:27 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+福島 克, 2016-06-02 11:42 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+嘉嶋 賢二, 2016-06-02 12:00 提出 
+自由記述式
+x1,y1は固定されていて動かないので
+x1 = y1 = 0
+x
+1
+ 
+ 
+y
+1
+ 
+ 
+0
+
+スライダクランクなのでy2は変化しないので
+y2 = 0
+y
+2
+ 
+ 
+0
+
+Element1とElement2は点Pで回り対偶で結合されているので
+ΦKrij = 0 ( i = 1 , j = 2 )
+Φ
+r
+i
+j
+K
+ 
+ 
+0
+ 
+ 
+i
+ 
+ 
+1
+ 
+ 
+j
+ 
+ 
+2
+ 
+
+が成り立ち、
+ΦKr12=[x1−x2+3cosϕ1+lsinϕ2y1−y2+3sinϕ1−lcosϕ2]=0
+Φ
+r
+12
+K
+x
+1
+x
+2
+3cos
+ϕ
+1
+lsin
+ϕ
+2
+y
+1
+y
+2
+3sin
+ϕ
+1
+lcos
+ϕ
+2
+0
+
+が得られる。これらをまとめて
+ΦK(q)=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1−x2+3cosϕ1+lsinϕ2y1−y2+3sinϕ1−lcosϕ2⎤⎦⎥⎥⎥⎥⎥⎥=0
+Φ
+K
+q
+x
+1
+y
+1
+y
+2
+x
+1
+x
+2
+3cos
+ϕ
+1
+lsin
+ϕ
+2
+y
+1
+y
+2
+3sin
+ϕ
+1
+lcos
+ϕ
+2
+0
+
+の拘束式を得る。またこれらを一般化座標q
+q=⎡⎣⎢⎢⎢⎢⎢⎢⎢x1y1ϕ1x2y2ϕ2⎤⎦⎥⎥⎥⎥⎥⎥⎥
+q
+x
+1
+y
+1
+ϕ
+1
+x
+2
+y
+2
+ϕ
+2
+
+でヤコビアンJを求めると
+J=⎛⎝⎜⎜⎜⎜⎜⎜1001001001000−3sinϕ13cosϕ1000−100010−1000−lsinϕ2lcosϕ1⎞⎠⎟⎟⎟⎟⎟⎟
+J
+1	0	0	0	0	0
+0	1	0	0	0	0
+0	0	0	0	1	0
+1	0	3sin
+ϕ
+1
+1	0	lsin
+ϕ
+2
+0	1	3cos
+ϕ
+1
+0	1	lcos
+ϕ
+1
+
+
+
+評価（100点満点） 10点
+[全体公開]○(我妻 広明)
+
+富永 萌子, 2016-06-02 12:00 提出 
+自由記述式
+ΦK(q)=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1+3cosϕ1−x2+lsinϕ2y1+3sinϕ1−y2−lcosϕ2⎤⎦⎥⎥⎥⎥⎥⎥=0
+Φ
+K
+q
+x
+1
+y
+1
+y
+2
+x
+1
+3cos
+ϕ
+1
+x
+2
+lsin
+ϕ
+2
+y
+1
+3sin
+ϕ
+1
+y
+2
+lcos
+ϕ
+2
+0
+
+
+ヤコビアン
+⎡⎣⎢⎢⎢⎢⎢⎢1,  0,  ,0,  ,0,  ,0,  00,  1,  ,0,  ,0,  ,0,  00,  0,  ,0,  ,0,  ,1,  01,  0,  ,−msin(ϕ1),  ,−1,  ,0,  lcos(ϕ2)0,  1,  ,mcos(ϕ1),  ,0,  ,−1,  lsin(ϕ2)⎤⎦⎥⎥⎥⎥⎥⎥
+1  0  0  0  0  0
+0  1  0  0  0  0
+0  0  0  0  1  0
+1  0  msin
+ϕ
+1
+  1  0  lcos
+ϕ
+2
+0  1  mcos
+ϕ
+1
+  0  1  lsin
+ϕ
+2
+
+
+
+評価（100点満点） 9点
+[全体公開](我妻 広明)
+
+吉田 裕貴, 2016-06-02 12:00 提出 
+自由記述式
+拘束条件式は
+ΦKr12=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1−x2+3cos(ϕ1)+lsin(ϕ2)y1−y2+3sin(ϕ1)−lcos(ϕ2)⎤⎦⎥⎥⎥⎥⎥⎥=0
+Φ
+r
+12
+K
+x
+1
+y
+1
+y
+2
+x
+1
+x
+2
+3cos
+ϕ
+1
+lsin
+ϕ
+2
+y
+1
+y
+2
+3sin
+ϕ
+1
+lcos
+ϕ
+2
+0
+
+
+
+ヤコビ行列は
+ΦKr12(q)=⎡⎣⎢⎢⎢⎢⎢⎢1001001001000−3sin(ϕ1)3cos(ϕ1)000−100010−1000lcos(ϕ2)lsin(ϕ2)⎤⎦⎥⎥⎥⎥⎥⎥=0
+Φ
+r
+12
+q
+K
+1	0	0	0	0	0
+0	1	0	0	0	0
+0	0	0	0	1	0
+1	0	3sin
+ϕ
+1
+1	0	lcos
+ϕ
+2
+0	1	3cos
+ϕ
+1
+0	1	lsin
+ϕ
+2
+0
+
+
+評価（100点満点） 10点
+[全体公開](我妻 広明)
+
+藤田 啓斗, 2016-06-02 12:01 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+木山 雄太, 2016-06-02 12:01 提出 
+自由記述式
+運動拘束式 
+
+ΦK(q)=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1+3cosϕ1−x2+lsinϕ2y1+3cosϕ1−y2−lcosϕ2⎤⎦⎥⎥⎥⎥⎥⎥=0
+Φ
+K
+q
+x
+1
+y
+1
+y
+2
+x
+1
+3cos
+ϕ
+1
+x
+2
+lsin
+ϕ
+2
+y
+1
+3cos
+ϕ
+1
+y
+2
+lcos
+ϕ
+2
+0
+
+==========================================
+Element1が角速度ωで回転するように駆動拘束を課すと駆動拘束式は以下で表される。
+ΦD=[ϕ1−ωt]
+Φ
+D
+ϕ
+1
+ω
+t
+
+よって運動学拘束式は以下のようになる
+Φ(q,t)=⎡⎣⎢⎢⎢⎢⎢⎢⎢x1y1y2x1+3cosϕ1−x2+lsinϕ2y1+3cosϕ1−y2−lcosϕ2ϕ1−ωt⎤⎦⎥⎥⎥⎥⎥⎥⎥=0
+Φ
+q
+t
+x
+1
+y
+1
+y
+2
+x
+1
+3cos
+ϕ
+1
+x
+2
+lsin
+ϕ
+2
+y
+1
+3cos
+ϕ
+1
+y
+2
+lcos
+ϕ
+2
+ϕ
+1
+ωt
+0
+
+
+
+速度方程式は
+Φqq˙=−Φt
+Φ
+q
+q
+Φ
+t
+
+であり。また、上式の速度方程式で
+q˙=[x1˙,y1˙,ϕ1˙,x2˙,y2˙,ϕ2˙]T
+q
+x
+1
+y
+1
+ϕ
+1
+x
+2
+y
+2
+ϕ
+2
+T
+
+Φt=[0,0,0,0,0,−ω]
+Φ
+t
+0
+0
+0
+0
+0
+ω
+
+である。よってヤコビアンΦqは
+Fq=⎡⎣⎢⎢⎢⎢⎢⎢⎢100110010000000−3sin(ϕ1)−3sin(ϕ1)1000−1000010−10000lcos(ϕ2)lsin(ϕ2)0⎤⎦⎥⎥⎥⎥⎥⎥⎥
+F
+q
+1	0	0	0	0	0
+0	1	0	0	0	0
+0	0	0	0	1	0
+1	0	3sin
+ϕ
+1
+1	0	lcosϕ2
+1	0	3sin
+ϕ
+1
+0	1	lsinϕ2
+0	0	1	0	0	0
+
+
+
+評価（100点満点） 10点
+[全体公開]○(我妻 広明)
+
+朝比奈 涼, 2016-06-02 12:01 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+JOSHI RAVI PRAKASH, 2016-06-02 12:01 提出 
+自由記述式
+Constraint Equation Set-
+
+The two bodies of slider-crank are connected together. Hence we can write following equation -
+[x1y1]+[cosϕ1−sinϕ1sinϕ1cosϕ1][30]=[x2y2]+[cosϕ2−sinϕ2sinϕ2cosϕ2][0l]
+x
+1
+y
+1
+cos
+ϕ
+1
+sin
+ϕ
+1
+sin
+ϕ
+1
+cos
+ϕ
+1
+3
+0
+x
+2
+y
+2
+cos
+ϕ
+2
+sin
+ϕ
+2
+sin
+ϕ
+2
+cos
+ϕ
+2
+0
+l
+
+ 
+After simplifying we get -
+[x1+3cosϕ1y1+3sinϕ1]=[x2−lsinϕ2y2+lcosϕ2]
+x
+1
+3cos
+ϕ
+1
+y
+1
+3sin
+ϕ
+1
+x
+2
+lsin
+ϕ
+2
+y
+2
+lcos
+ϕ
+2
+
+
+[x1+3cosϕ1−x2+lsinϕ2y1+3sinϕ1−y2−lcosϕ2]=0
+x
+1
+3cos
+ϕ
+1
+x
+2
+lsin
+ϕ
+2
+y
+1
+3sin
+ϕ
+1
+y
+2
+lcos
+ϕ
+2
+0
+
+ 
+Finally the kinematic constrain equation can be given by-
+ΦK(q)=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1+3cosϕ1−x2+lsinϕ2y1+3sinϕ1−y2−lcosϕ2⎤⎦⎥⎥⎥⎥⎥⎥=0
+Φ
+K
+q
+x
+1
+y
+1
+y
+2
+x
+1
+3cos
+ϕ
+1
+x
+2
+lsin
+ϕ
+2
+y
+1
+3sin
+ϕ
+1
+y
+2
+lcos
+ϕ
+2
+0
+
+ 
+Jacobian Matrix-
+⎡⎣⎢⎢⎢⎢⎢⎢1001001001000−3sin(ϕ1)−3cos(ϕ1)000−100010−1000lcos(ϕ2)lsin(ϕ2)⎤⎦⎥⎥⎥⎥⎥⎥
+1	0	0	0	0	0
+0	1	0	0	0	0
+0	0	0	0	1	0
+1	0	3sin
+ϕ
+1
+1	0	lcos
+ϕ
+2
+0	1	3cos
+ϕ
+1
+0	1	lsin
+ϕ
+2
+
+
+評価（100点満点） 10点
+[全体公開]○(我妻 広明)
+
+齊藤 明王, 2016-06-02 12:02 提出 
+自由記述式
+%%
+% 
+% 
+eπi+1=0
+e
+π
+i
+1
+0
+
+% 
+Phi =
+ 
+ x1 - x2 + 3*cos(p1) + l*sin(p2)
+ y1 - y2 + 3*sin(p1) - l*cos(p2)
+ 
+ 
+PhiJ =
+ 
+[ 1, 0, -3*sin(p1), -1,  0, l*cos(p2)]
+[ 0, 1,  3*cos(p1),  0, -1, l*sin(p2)]
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+大濵 勇平, 2016-06-02 12:02 提出 
+自由記述式
+ΦK(q)=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1−x2+3cosϕ1+lsinϕ2y1−y2+3sinϕ1−lcosϕ2⎤⎦⎥⎥⎥⎥⎥⎥=0
+Φ
+K
+q
+x
+1
+y
+1
+y
+2
+x
+1
+x
+2
+3cos
+ϕ
+1
+lsin
+ϕ
+2
+y
+1
+y
+2
+3sin
+ϕ
+1
+lcos
+ϕ
+2
+0
+評価（100点満点） 8点
+[全体公開]○(我妻 広明)
+
+水谷 龍希, 2016-06-02 12:02 提出 
+自由記述式
+拘束式
+ΦK(q)=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1−x2+3cosϕ1+lsinϕ2y1−y2+3sinϕ1+lcosϕ2⎤⎦⎥⎥⎥⎥⎥⎥
+Φ
+K
+q
+x
+1
+y
+1
+y
+2
+x
+1
+x
+2
+3cos
+ϕ
+1
+lsin
+ϕ
+2
+y
+1
+y
+2
+3sin
+ϕ
+1
+lcos
+ϕ
+2
+
+
+ヤコビアン
+jacobian(ΦK(q))=⎡⎣⎢⎢⎢⎢⎢⎢000sinϕ2cosϕ2000−3sinϕ13cosϕ1000lcosϕ2−lsinϕ210010000−10010010010−1⎤⎦⎥⎥⎥⎥⎥⎥
+j
+a
+c
+o
+b
+i
+a
+n
+Φ
+K
+q
+0	0	0	1	0	0	0
+0	0	0	0	0	1	0
+0	0	0	0	0	0	1
+sin
+ϕ
+2
+3sin
+ϕ
+1
+lcos
+ϕ
+2
+1	1	0	0
+cos
+ϕ
+2
+3cos
+ϕ
+1
+lsin
+ϕ
+2
+0	0	1	1
+評価（100点満点） 10点
+[全体公開]○(我妻 広明)
+
+渡辺 裕司, 2016-06-02 12:02 提出 
+自由記述式
+拘束式
+ϕKr12=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1+3cosϕ1−x2+lsinϕ2y1+3sinϕ1−y2+lcosϕ2⎤⎦⎥⎥⎥⎥⎥⎥
+ϕ
+r
+12
+K
+x
+1
+y
+1
+y
+2
+x
+1
+3cos
+ϕ
+1
+x
+2
+lsin
+ϕ
+2
+y
+1
+3sin
+ϕ
+1
+y
+2
+lcos
+ϕ
+2
+
+ヤコビアン
+F12=⎡⎣⎢⎢⎢⎢⎢⎢1001001001000−3sinϕ13cosϕ1000−100010−1000lcosϕ2−lsinϕ2⎤⎦⎥⎥⎥⎥⎥⎥
+F
+12
+1	0	0	0	0	0
+0	1	0	0	0	0
+0	0	0	0	1	0
+1	0	3sin
+ϕ
+1
+1	0	lcos
+ϕ
+2
+0	1	3cos
+ϕ
+1
+0	1	lsin
+ϕ
+2
+評価（100点満点） 10点
+[全体公開]○(我妻 広明)
+
+松山 公弥, 2016-06-02 12:02 提出 
+自由記述式
+拘束式：
+ΦK(q)=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1−x2+3cosϕ1+lsinϕ2y1−y2+3sinϕ1−lcosϕ2⎤⎦⎥⎥⎥⎥⎥⎥=0
+Φ
+K
+q
+x
+1
+y
+1
+y
+2
+x
+1
+x
+2
+3cos
+ϕ
+1
+lsin
+ϕ
+2
+y
+1
+y
+2
+3sin
+ϕ
+1
+lcos
+ϕ
+2
+0
+
+
+ヤコビアン：
+A=⎡⎣⎢⎢⎢⎢⎢⎢⎢100100010−3sinϕ11000003cosϕ11000−1000010−10000lcosϕ2lsinϕ20⎤⎦⎥⎥⎥⎥⎥⎥⎥
+A
+1	0	0	0	0	0
+0	1	0	0	0	0
+0	0	0	0	1	0
+1	3sin
+ϕ
+1
+0	1	0	lcos
+ϕ
+2
+0	1	3cos
+ϕ
+1
+0	1	lsin
+ϕ
+2
+0	0	1	0	0	0
+
+
+
+評価（100点満点） 9点
+[全体公開]○(我妻 広明)
+
+森 逸平, 2016-06-02 12:02 提出 
+自由記述式
+拘束式
+ϕK(q)=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1+3cosϕ1−x2+lsinϕ2y1+3sinϕ1−y2+lcosϕ2⎤⎦⎥⎥⎥⎥⎥⎥
+ϕ
+K
+q
+x1
+y1
+y2
+x
+1
+3cos
+ϕ
+1
+x
+2
+lsin
+ϕ
+2
+y
+1
+3sin
+ϕ
+1
+y
+2
+lcos
+ϕ
+2
+
+
+ヤコビアン
+F=⎡⎣⎢⎢⎢⎢⎢⎢⎢1,0,0,0,0,00,1,0,0,0,00,0,0,0,1,01,0,−3sinϕ1,−1,0,−lsinϕ20,1,3cosϕ1,0,−1,lsinϕ20,0,1,0,0,0⎤⎦⎥⎥⎥⎥⎥⎥⎥
+F
+100000
+010000
+000010
+103sin
+ϕ
+1
+10lsin
+ϕ
+2
+013cos
+ϕ
+1
+01lsin
+ϕ
+2
+001000
+評価（100点満点） 9点
+[全体公開]○(我妻 広明)
+
+日巻 智貴, 2016-06-02 12:02 提出 
+自由記述式
+OP=3
+ΦK(q)=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1−x2+3cosϕ1+lsinϕ2y1−y2+3sinϕ1−lcosϕ2⎤⎦⎥⎥⎥⎥⎥⎥=0(3.83)
+Φ
+K
+q
+x
+1
+y
+1
+y
+2
+x
+1
+x
+2
+3cos
+ϕ
+1
+lsin
+ϕ
+2
+y
+1
+y
+2
+3sin
+ϕ
+1
+lcos
+ϕ
+2
+0
+3.83
+
+ヤコビアン
+ΦK(q)j=⎡⎣⎢⎢⎢⎢⎢⎢⎢100000010000000010103sinϕ1−10−lcosϕ20100−1−lsinϕ2⎤⎦⎥⎥⎥⎥⎥⎥⎥
+Φ
+K
+q
+j
+1		0		0		1		0
+0		1		0		0		1
+0		0		0		3sin
+ϕ
+1
+0
+0		0		0		1		0
+0		0		1		0		1
+0		0		0		lcos
+ϕ
+2
+lsin
+ϕ
+2
+評価（100点満点） 8点
+[全体公開]○(我妻 広明)
+
+黒岩 将, 2016-06-02 12:02 提出 
+自由記述式
+ΦK(q)=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1−x2+3cosϕ1+lsinϕ2y1−y2+3sinϕ1−lcosϕ2⎤⎦⎥⎥⎥⎥⎥⎥=0
+Φ
+K
+q
+x
+1
+y
+1
+y
+2
+x
+1
+x
+2
+3cos
+ϕ
+1
+lsin
+ϕ
+2
+y
+1
+y
+2
+3sin
+ϕ
+1
+lcos
+ϕ
+2
+0
+
+また、ヤコビアンは、
+⎡⎣⎢⎢⎢⎢⎢⎢1 0 0 0 0 00 1 0 0 0 00 0 0 0 1 01 0 −3sinϕ1 −1 0 lcosϕ20 1 −3sinϕ1 0 −1 lsinϕ2⎤⎦⎥⎥⎥⎥⎥⎥
+1 0 0 0 0 0
+0 1 0 0 0 0
+0 0 0 0 1 0
+1 0 3sin
+ϕ
+1
+ 1 0 lcos
+ϕ
+2
+0 1 3sin
+ϕ
+1
+ 0 1 lsin
+ϕ
+2
+
+となった。
+
+評価（100点満点） 8点
+[全体公開]○(我妻 広明)
+
+石田 琢朗, 2016-06-02 12:02 提出 
+自由記述式
+A=⎛⎝⎜⎜⎜⎜⎜⎜x1y1y2x1−x2+3cos(ϕ1)+lsin(ϕ2)y1−y2+3sin(ϕ1)−lcos(ϕ2)⎞⎠⎟⎟⎟⎟⎟⎟
+A
+x
+1
+y
+1
+y
+2
+x
+1
+x
+2
+3cosϕ1lsinϕ2
+y
+1
+y
+2
+3sinϕ1lcosϕ2
+
+
+[ 1, 0,            0,  0,  0,            0]
+[ 0, 1,            0,  0,  0,            0]
+[ 0, 0,            0,  0,  1,            0]
+[ 1, 0, -3*sin(phi1), -1,  0,  l*cos(phi2)]
+[ 0, 1,  3*cos(phi1),  0, -1, -l*cos(phi2)]
+評価（100点満点） 10点
+[全体公開]○(我妻 広明)
+
+中村 優樹, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 7点
+[全体公開]○(我妻 広明)
+
+藤野 慶汰, 2016-06-02 12:02 提出 
+自由記述式
+¥begin{math}
+¥Phi ^k_{r12} = r_1 + s^P_1 - r_2 - s^P_2¥¥¥¥
+   = ¥left[¥begin{array}{rr}x_1 ,&y_1¥¥ ¥end{array}¥right] ^T
+   + A_1s^{'P}_1
+   - ¥left[¥begin{array}{rr}x_2 ,&y_2¥¥ ¥end{array}¥right] ^T
+   - A_2s^{'P}_2¥¥¥¥
+   = ¥left[¥begin{array}{rr}x_1¥¥y_1¥end{array}¥right]
+   + ¥left[¥begin{array}{rr}¥cos¥phi_1 & -¥sin¥phi_1¥¥ ¥sin¥phi_1 &  ¥cos¥phi_1¥end{array}¥right]
+      ¥left[¥begin{array}{rr}X^P_1¥¥Y^P_1¥end{array}¥right]
+   -  ¥left[¥begin{array}{rr}x_2¥¥y_2¥end{array}¥right]
+   -  ¥left[¥begin{array}{rr} ¥cos¥phi_2 & -¥sin¥phi_2¥¥¥sin¥phi_2 &  ¥cos¥phi_2¥end{array}¥right]
+      ¥left[¥begin{array}{rr}X^P_2¥¥Y^P_2¥end{array}¥right]¥¥¥¥
+   = ¥left[¥begin{array}{rr}x_1¥¥y_1¥end{array}¥right]
+   + ¥left[¥begin{array}{rr}X^P_1¥cos¥phi_1 -Y^P_1¥sin¥phi_1¥¥X^P_1¥sin¥phi_1 + Y^P_1¥cos¥phi_1¥end{array}¥right]
+   + ¥left[¥begin{array}{rr}-x_2¥¥-y_2¥end{array}¥right]
+   -  ¥left[¥begin{array}{rr}X^P_2¥cos¥phi_2 -Y^P_2¥sin¥phi_2¥¥X^P_2¥sin¥phi_2 + Y^P_2¥cos¥phi_2¥end{array}¥right]¥¥¥¥
+  ここで， X^P_1 = 3， Y^P_1 = 0， X^P_2 = 0， Y^P_2 = l　なので¥¥¥¥
+  ¥Phi ^k_{r12} 
+  = ¥left[¥begin{array}{rr}x_1¥¥y_1¥end{array}¥right]
+  + ¥left[¥begin{array}{rr}3¥cos¥phi_1¥¥3¥sin¥phi_1¥end{array}¥right]
+  + ¥left[¥begin{array}{rr}-x_2¥¥-y_2¥end{array}¥right]
+  + ¥left[¥begin{array}{rr}l¥sin¥phi_2¥¥-l¥cos¥phi_2¥end{array}¥right]¥¥¥¥
+  = ¥left[¥begin{array}{rr}x_1 + 3¥cos¥phi_1 - x_2 + l¥sin¥phi_2¥¥y_1 + 3¥sin¥phi_1 - y_2 - l¥cos¥phi_2¥end{array}¥right]
+  = 0
+¥end{math}
+評価（100点満点） 7点
+[全体公開]○(我妻 広明)
+
+スティナン アナンタラッタナチャイ, 2016-06-02 12:02 提出 
+自由記述式
+The constraint equation is 
+ΦK(q)=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1−x2+3cosϕ1+lsinϕ2y1−y2+3sinϕ1−lcosϕ2⎤⎦⎥⎥⎥⎥⎥⎥=0
+Φ
+K
+q
+x
+1
+y
+1
+y
+2
+x
+1
+x
+2
+3cos
+ϕ
+1
+lsin
+ϕ
+2
+y
+1
+y
+2
+3sin
+ϕ
+1
+lcos
+ϕ
+2
+0
+
+and the Jacobian Matrix is
+J=(−3sinϕ10lcosϕ20)
+J
+3sin
+ϕ
+1
+lcos
+ϕ
+2
+0	0
+
+評価（100点満点） 7点
+[全体公開]○(我妻 広明)
+
+鳴海 和, 2016-06-02 12:03 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+萩尾 元晴, 2016-06-02 12:03 提出 
+自由記述式
+Φ=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1−x2+3cosϕ1+lsinϕ2y1−y2+3sinϕ1−lcosϕ2⎤⎦⎥⎥⎥⎥⎥⎥=0 
+Φ
+x
+1
+y
+1
+y
+2
+x
+1
+x
+2
+3cos
+ϕ
+1
+lsin
+ϕ
+2
+y
+1
+y
+2
+3sin
+ϕ
+1
+lcos
+ϕ
+2
+0
+ 
+評価（100点満点） 8点
+[全体公開]○(我妻 広明)
+
+Thewsuwan Srisupang, 2016-06-02 12:04 提出 
+自由記述式
+ϕK(q)=⎡⎣⎢⎢⎢⎢⎢⎢x1y1y2x1−x2+mcos(ϕ1+lsinϕ2)y1−y2+msin(ϕ1−lcosϕ2)⎤⎦⎥⎥⎥⎥⎥⎥
+ϕ
+K
+q
+x
+1
+y
+1
+y
+2
+x
+1
+x
+2
+mcos
+ϕ
+1
+lsin
+ϕ
+2
+y
+1
+y
+2
+msin
+ϕ
+1
+lcos
+ϕ
+2
+
+====================
+
+Jacobian Equation ;
+⎡⎣⎢⎢⎢⎢⎢⎢⎢100100010010000−(3sin(ϕ1)/2(3cos(ϕ1)/20000−1000010−11000−2sin(ϕ2)2sin(ϕ2)0⎤⎦⎥⎥⎥⎥⎥⎥⎥
+1	0	0	0	0	0
+0	1	0	0	0	0
+0	0	0	0	1	0
+1	0	3sin
+ϕ
+1
+2	1	0	2sin
+ϕ
+2
+0	1	3cos
+ϕ
+1
+2	0	1	2sin
+ϕ
+2
+0	0	0	0	1	0
+
+評価（100点満点） 9点
+[全体公開]○(我妻 広明)
+
+Labuguen Rollyn, 2016-06-02 12:04 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+
+一括して「評価○・全体公開」にする
+

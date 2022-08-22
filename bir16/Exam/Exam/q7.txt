@@ -1,0 +1,1017 @@
+
+
+CL04K
+クラス 15
+まとめ & 期末テスト  - Brainstorming & Exam.   
+問	提出数 
+(未補足数)
+ 1	（10点 / 10 score） 課題#2で計算したマウス増産モデルにおいて、 B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m c'(t) = g*(1-1/n(t)) と与えられるときに、Birth -> Predation -> Migration -> Census の順番として、再帰方程式　n(t+1) = F(n(t),b,d,m,g)を求めよ。また、その変化を可視化するMATLAB programing code を入力すること。 According to the assignment #2, reconsider the mouse model and derive the recursion equation n(t+1) = F(n(t),b,d,m,g) with the following following order, Birth -> Predation -> Migration -> Census which are defined by B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m where c'(t) = g*(1-1/n(t)). In addition, make a MATLAB programing code to visualize the time course of the model.	27(0)
+ 2	（3点 / 3 score）ラグランジュ補間とスプライン補間の数学的な差異について述べよ。 Describe mathematical differences between Lagrange interpolation and spline interpolation.	27(0)
+ 3	（10点 / 10 score） 課題 #4で計算した3次自然スプライン補間関数を次の表を満たすように求めよ．また，同じデータからラグランジュの補間関数を求めよ．最終的に、それら二つの関数をプロットするMATLAB codeを入力せよ。（数式とプログラムは「=====」などで分けること） According to the assignment #4, derive the cubic (3rd order) spline interpolation formula that fit for the given data. In addition, derive the Lagrange interpolation formula for the same data. In addition, please make a matlab programming code to visualize both equations as the graph. （split equatios and programming codes by a line such as "====="）
+xjfj0011233240
+x
+j
+0	1	2	3	4
+f
+j
+0	1	3	2	0
+27(0)
+ 4	（3点 / 3 score） あるベジェ曲線が与えられたとする。その曲線をスプライン曲線で再現できるか？　できるなら例を一つ挙げ、出来ないならその数学的根拠を説明せよ。 Suppose there is a Bzier curve, is it possible to reconstruct a spline curve? If it is possible, show an example in both sides. If it is impossible, describe a mathematical reason why it is impossible.	27(0)
+ 5	（2点 / 2 score）以下の方程式に当てはまるものは何か。What kind of a equation is the following one?
+Qk(n,d)=∑i=1[n/k][n!d!diki!(k!)i(n−ik)!(d−i)!∑j=1k−1Qj(n−ik,d−i)(d−i)n−ikdn−ik]
+Q
+k
+n
+d
+i
+1
+n
+k
+n
+d
+d
+i
+k
+i
+k
+i
+n
+i
+k
+d
+i
+j
+1
+k
+1
+Q
+j
+n
+i
+k
+d
+i
+d
+i
+n
+i
+k
+d
+n
+i
+k
+27(0)
+ 6	（5点 / 5 score）任意の微分方程式を自由に定義し、下記の４種でそれぞれTex記述せよ。複雑である程高い配点とする。 Define an arbitrary equation, and describe it in following four types. Complex one gets a high score. 1) ライプニッツの記法	Leibniz's notation 2) ラグランジュの記法	Lagrange's notation 3) オイラーの記法	Euler's notation 4) ニュートンの記法 Newton's notation	27(0)
+ 7	（10点 / 10 score）次の定積分を、積分区間を10等分してシンプソンの公式を用いて求めよ。 By using the Simpson's equation with 10 divided integral parts, obtain the value.
+∫011−x2‾‾‾‾‾‾√dx
+1
+0
+1
+x
+2
+d
+x
+27(0)
+ 8	（5点 / 5 score）微分方程式の解法であるホイン法の基礎方程式は、偏微分法を用いて得られている。それは何故か。 In the process to obtain the basic equation of Heun's method for solving differential equations, partial differentials are necessary. Why?	27(0)
+ 9	（10点 / 10 score） 課題 #5において、原点からP点までの長さを３に変更した場合、式(3.83)と同様に拘束式を求めよ。また、このヤコビアンを求め、入力せよ。（TeX 形式で入力すること） According to the assignment #5, derive the constraint equation set (such as equation 3.83) and its Jacobian matrix (both equations should be typed in the TeX format)	27(0)
+ 10	（10点 / 10 score） 課題 #7において、body 2の長さを全体で3、body 3の長さを全体で2とした場合の拘束式を求めよ。また、この場合の速度方程式、加速度方程式を求めて求めて入力せよ。（TeX 形式で入力すること） According to the assignment #7, derive the constraint equation set (such as equation 3.83) if lengths of the body 2 and 3 are 3 (the whole length) and 2 (the whole length) and its velocity acceleration equations (both equations should be typed in the TeX format).	27(0)
+ 11	（10点 / 10 score） 上述問題10において、機構の動きを可視化するMATLAB programming codeを作成せよ。 According to the above question 10, make a MATLAB programming code to visualize the kinematic movement as a moving picture.	27(0)
+ 12	（10点 / 10 score） 課題#10「Multilevel modeling of physiological system using dynamical system and PhysioDesigner」(p.27- 34)の　Fitzhugh - Nagumo model　についてPhysioDesignerで、PHMLモジュールを作成し、シミュレーション実験したものを、２個のユニットから３個のユニットに拡張して、PHMLモジュールを作成すること。コードは以下にそのままペーストしてよい。 According to assignment #10 "Multilevel modeling of physiological system using dynamical system and PhysioDesigner" (p. 27-34), make the PHML model as the module in PhysioDesigner, extend the model from 2 unit version (as you tested) to 3 unit version. Type the PHML code like the following: ＜?xml version="1.0" encoding="UTF-8" standalone="no"?＞ ＜is:insilico-model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:svg="http://www.w3.org/2000/svg" xmlns:is="http://www.physiome.jp/ns/insilicoml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:m="http ://www.w3.org/1998/Math/MathML" xmlns:pd="http://www.physiodesigner.org/2012/ns/physiodesigner/1.0" version="1.0" xsi:schemalocation="http://www.physiome.jp/ns/insilicoml-1.0 insilicoml.xsd"＞ ＜is:header＞ ＜is:model-name＞damping oscillation＜/is:model-name＞ ＜is:meta-information＞ ＜is:article-set/＞ ＜is:creator-set/＞ ...	27(0)
+ 13	（5点 / 5 score） 課題13 (1) を参考にして、次の真理値表を完成すること。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式（表）で入力し適切に表示されることを確認すること。 According to assignment #13-1, "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.15)　[you can see the example of the description in the PPT file] type the TeX (Table) format in the KWM input box below, to fulfill empty box in the table by calculating the symbolic logic expression, such as
+pTTFFqTFTF¬p    p→¬q    ¬q→¬p    p∨¬p    
+p	q	¬p	p¬q	¬q¬p	p¬p
+T	T	 	 	 	 
+T	F	 	 	 	 
+F	T	 	 	 	 
+F	F	 	 	 	 
+27(0)
+ 14	（5点 / 5 score） 課題13(2)を参考にしての以下の5つの例文を論理記述式で書け。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式で入力し適切に表示されることを確認すること。 According to assignment #13-2, such as "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.19)　　[you can see the example of the description in the PPT file] type the TeX format in the KWM input box below, to answer the following 5 questions by describing the symbolic logic expression, such as
+∃x¬like(MOTHER(Satoshi),x)
+∃
+x
+¬
+l
+i
+k
+e
+M
+O
+T
+H
+E
+R
+S
+a
+t
+o
+s
+h
+i
+x
+You need to use TeX description for preparing the exam. ===== ex. 1) 私は高速道路を走っている（私は車に乗っており、その車は高速道路を走っている） I'm running on the highway by a car ex. 2) 私は辞書もペンも両方持っている I have a dictionary and a pen ex. 3) 食事を摂らない人間は生きていくことができない All human dead if the one does not take any food. ex. 4) 髪のない人間は髪を触れることができない No one exists to touch the own hair if there is no hair. ex. 5) 飛べない鳥もいる A bird exists which cannot fly. ================ (*1) Table of contents http://ai.tanichu.com/slide_template Slideshow https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhaXdpdGhpbGx1c3RyYXRpb258Z3g6MWFlMWRiMzViYjljMDZlYg	27(0)
+点数のヒストグラム
+未評価
+0-10
+11-20
+21-30
+31-40
+41-50
+51-60
+61-70
+71-80
+81-90
+91-100
+0.0
+7.5
+15.0
+22.5
+30.0
+点数
+人数
+Value
+未評価	0
+0-10	27
+11-20	0
+21-30	0
+31-40	0
+41-50	0
+51-60	0
+61-70	0
+71-80	0
+81-90	0
+91-100	0
+問 7	（10点 / 10 score）次の定積分を、積分区間を10等分してシンプソンの公式を用いて求めよ。
+
+By using the Simpson's equation with 10 divided integral parts, obtain the value. 
+
+∫011−x2‾‾‾‾‾‾√dx
+1
+0
+1
+x
+2
+d
+x
+
+
+almassri ahmed, 2016-06-02 11:09 提出 
+自由記述式
+0.0333333333333333
+評価（100点満点） 0点
+[全体公開]○IntegA[0 1] =
+
+   0.781752039675810
+
+
+IntegA[1 0] =
+
+  -0.781752039675810(我妻 広明)
+
+渡辺 龍二, 2016-06-02 11:13 提出 
+自由記述式
+0.7841
+
+以下、MATLABコード
+func = @(x) sqrt(1-x*x);
+%func(0.1)
+N=10;%分割数
+d=1.0/N;%刻み幅
+sum=0.0;
+for i=0:N-1;
+    a=d*i;
+    b=a+d;
+    sum=sum+((b-a)/6.0)*(func(a)+4.0*func((a+b)/2.0)+func(b));
+end
+sum
+評価（100点満点） 8点
+[全体公開]○もう少し精度が欲しかったですね。
+
+=====
+display('IntegA [0 1] by Simpson Eq')
+ndiv=10;
+x0=0; x1=1;
+h=(x1-x0)./ndiv;
+
+x=x0:h:x1;
+f=@(x) sqrt(1-x.^2);
+
+for i=1:2:length(x)-2
+    A(i)=h/3*(f(x(i))+4*f(x(i+1))+f(x(i+2)));
+    
+end
+
+format long
+IntegA=sum(A)
+%     0.78174
+% Ans= 0.781752039675810
+
+% h=-0.1;
+display('IntegA [1 0] by Simpson Eq')
+ndiv=10;
+x0=1; x1=0;
+h=(x1-x0)./ndiv;
+% if x0>x1 h=-h; end;
+
+x=x0:h:x1;
+f=@(x) sqrt(1-x.^2);
+
+for i=1:2:length(x)-2
+    A(i)=h/3*(f(x(i))+4*f(x(i+1))+f(x(i+2)));
+    
+end
+
+format long
+IntegA=sum(A)
+
+% Ans= -0.781752039675810(我妻 広明)
+
+岩武 澄, 2016-06-02 11:27 提出 
+自由記述式
+
+
+0.784
+評価（100点満点） 6点
+[全体公開]○(我妻 広明)
+
+福島 克, 2016-06-02 11:42 提出 
+自由記述式
+0.7818
+評価（100点満点） 8点
+[全体公開]○(我妻 広明)
+
+嘉嶋 賢二, 2016-06-02 12:00 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+富永 萌子, 2016-06-02 12:00 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]% h=0.1;
+ndiv=10;
+x0=0; x1=1;
+h=(x1-x0)./ndiv;
+% if x0>x1 h=-h; end;
+
+x=x0:h:x1;
+f=@(x) sqrt(1-x.^2);
+
+for i=1:2:length(x)-2
+    A(i)=h/3*(f(x(i))+4*f(x(i+1))+f(x(i+2)));
+    
+end
+
+format long
+IntegA=sum(A)
+%     0.78174
+% Ans= 0.781752039675810
+
+% h=-0.1;
+ndiv=10;
+x0=1; x1=0;
+h=(x1-x0)./ndiv;
+% if x0>x1 h=-h; end;
+
+x=x0:h:x1;
+f=@(x) sqrt(1-x.^2);
+
+for i=1:2:length(x)-2
+    A(i)=h/3*(f(x(i))+4*f(x(i+1))+f(x(i+2)));
+    
+end
+
+format long
+IntegA=sum(A)
+
+% Ans= -0.781752039675810
+(我妻 広明)
+
+吉田 裕貴, 2016-06-02 12:00 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+藤田 啓斗, 2016-06-02 12:01 提出 
+自由記述式
+ｈ=-1/10＝－0.1
+xj=1+j*h
+それぞれの区間を計算し求めると
+0.05
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+木山 雄太, 2016-06-02 12:01 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+朝比奈 涼, 2016-06-02 12:01 提出 
+自由記述式
+ 0.7841 + 0.0290i
+評価（100点満点） 5点
+[全体公開]○実数で求めること。シンプソン法で虚数はでません。(我妻 広明)
+
+JOSHI RAVI PRAKASH, 2016-06-02 12:01 提出 
+自由記述式
+Simpson's equation is defined as following -
+∫baf(x)dx≈Δx3[f(x0)+4f(x1)+2f(x2)+....+f(xn)]
+a
+b
+f
+x
+d
+x
+Δ
+x
+3
+f
+x
+0
+4
+f
+x
+1
+2
+f
+x
+2
+f
+x
+n
+
+
+Given n=10
+∫011−x2‾‾‾‾‾‾√dx≈Δx3[f(x0)+4f(x1)+2f(x2)+4f(x3)+2f(x4)+4f(x5)+2f(x6)+4f(x7)+2f(x8)+4f(x9)+f(x10)]
+1
+0
+1
+x
+2
+d
+x
+Δ
+x
+3
+f
+x
+0
+4
+f
+x
+1
+2
+f
+x
+2
+4
+f
+x
+3
+2
+f
+x
+4
+4
+f
+x
+5
+2
+f
+x
+6
+4
+f
+x
+7
+2
+f
+x
+8
+4
+f
+x
+9
+f
+x
+10
+
+
+Since we have -
+Δx=110
+Δ
+x
+1
+10
+
+and
+a=0,110,15,310,25,12,35,710,45,910,1=bf(x0)=f(a)=f(0)=1=14f(x1)=4f(110)=611‾‾‾√5=3.979949748426482f(x2)=2f(15)=46‾√5=1.959591794226544f(x3)=4f(310)=291‾‾‾√5=3.815756805667782f(x4)=2f(25)=221‾‾‾√5=1.833030277982344f(x5)=4f(12)=23‾√=3.464101615137752f(x6)=2f(35)=85=1.64f(x7)=4f(710)=251‾‾‾√5=2.856571371417142f(x8)=2f(45)=65=1.24f(x9)=4f(910)=219‾‾‾√5=1.74355957741627f(x10)=f(b)=f(1)=0=0
+a
+0
+1
+10
+1
+5
+3
+10
+2
+5
+1
+2
+3
+5
+7
+10
+4
+5
+9
+10
+1
+b
+f
+x
+0
+f
+a
+f
+0
+1
+1
+4
+f
+x
+1
+4
+f
+1
+10
+6
+11
+5
+3.97994974842648
+2
+f
+x
+2
+2
+f
+1
+5
+4
+6
+5
+1.95959179422654
+4
+f
+x
+3
+4
+f
+3
+10
+2
+91
+5
+3.81575680566778
+2
+f
+x
+4
+2
+f
+2
+5
+2
+21
+5
+1.83303027798234
+4
+f
+x
+5
+4
+f
+1
+2
+2
+3
+3.46410161513775
+2
+f
+x
+6
+2
+f
+3
+5
+8
+5
+1.6
+4
+f
+x
+7
+4
+f
+7
+10
+2
+51
+5
+2.85657137141714
+2
+f
+x
+8
+2
+f
+4
+5
+6
+5
+1.2
+4
+f
+x
+9
+4
+f
+9
+10
+2
+19
+5
+1.74355957741627
+f
+x
+10
+f
+b
+f
+1
+0
+0
+
+At last, we can put all the values in the equation above and get following-
+130(1+3.97994974842648+1.95959179422654+...+1.74355957741627+0)=0.78175203967581
+1
+30
+1
+3.97994974842648
+1.95959179422654
+1.74355957741627
+0
+0.78175203967581
+
+ 
+
+評価（100点満点） 10点
+[全体公開]○Perfect!!(我妻 広明)
+
+齊藤 明王, 2016-06-02 12:02 提出 
+自由記述式
+0.7841 + 0.0290i
+評価（100点満点） 2点
+[全体公開]○シンプソンの方法で虚数はでてきません。(我妻 広明)
+
+大濵 勇平, 2016-06-02 12:02 提出 
+自由記述式
+ーーーーーーーーーーープログラムコードーーーーーーーーーーーーー
+clear all
+
+f = @(n) (sqrt(1.0-(n)^2));
+
+F=0;
+for i=0:0.1:0.9
+    a=i;
+    b=i+0.1;
+    m=(a+b)/2;
+    F1=f(a)*((i-m)*(i-b)/(a-m)/(a-b))+f(m)*((i-a)*(i-b)/(m-a)/(m-b))+f(b)*((i-a)*(i-m)/(b-a)/(b-m));
+    F=F+F1;
+end;
+F
+
+ーーーーーーーーーーー回答ーーーーーーーーーーーーー
+8.2613
+評価（100点満点） 4点
+[全体公開]○ちがう。。。　(我妻 広明)
+
+水谷 龍希, 2016-06-02 12:02 提出 
+自由記述式
+-0.7818
+
+評価（100点満点） 9点
+[全体公開]○(我妻 広明)
+
+渡辺 裕司, 2016-06-02 12:02 提出 
+自由記述式
+−16(1+2∗3‾√)
+1
+6
+1
+2
+3
+評価（100点満点） 4点
+[全体公開]○10等分してないですね。(我妻 広明)
+
+松山 公弥, 2016-06-02 12:02 提出 
+自由記述式
+nを10とする
+10等分して0.3465735902799721 
+評価（100点満点） 3点
+[全体公開]○(我妻 広明)
+
+森 逸平, 2016-06-02 12:02 提出 
+自由記述式
+matalabの関数（quad）を使用
+ベクトルxを０から１の間で１０等分した値を格納し計算
+0.7854
+評価（100点満点） 3点
+[全体公開]○計算が違いますね。(我妻 広明)
+
+日巻 智貴, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+黒岩 将, 2016-06-02 12:02 提出 
+自由記述式
+1−x2‾‾‾‾‾‾√=f(x)
+1
+x
+2
+f
+x
+とする。
+積分区間を１０等分した場合、与式はシンプソンの公式から
+(与式)≈−130[f(1)+4f(0.9)+2f(0.8)+4f(0.7)+2f(0.6)+...+f(0)]
+1
+30
+f
+1
+4
+f
+0.9
+2
+f
+0.8
+4
+f
+0.7
+2
+f
+0.6
+f
+0
+
+となる。これを計算すると、
+(与式)≈−0.72
+0.72
+となった。
+評価（100点満点） 5点
+[全体公開]○桁が足りない。(我妻 広明)
+
+石田 琢朗, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+中村 優樹, 2016-06-02 12:02 提出 
+自由記述式
+
+10等分なので0~1を
+（0,0.1),(0.1,0.2),(0.2,0.3),(0.3,0.4),(0.4,0.5)(0.5,0.6),(0.6,0.7),(0.7,0.8),(0.8,0.9),(0.9,1.0)に分けて
+
+（0,0.1)のとき
+1-0.9950＝0.0050
+平均:0.0025
+面積:0.00025
+
+(0.1,0.2)
+0.9950-0.9798＝0.0152
+平均:0.0076
+面積:0.00076
+
+(0.2,0.3)
+ 0.9798-0.9539＝0.0259
+平均:0.0129
+面積:0.00129
+
+(0.3,0.4)
+ 0.9539-0.9165＝0.0374
+平均:0.0187
+面積:0.00187
+
+(0.4,0.5)
+0.9165-0.8660＝0.0505
+平均: 0.0252
+面積:0.00252
+
+(0.5,0.6)
+0.8660-0.8000= 0.0660
+平均:0.0330
+面積:0.00330
+
+(0.6,0.7)
+0.8000-0.7141=0.0859
+平均:0.0429
+面積:0.00429
+
+(0.7,0.8)
+0.7141-0.6000=0.1141
+平均:0.0571
+面積:0.00571
+
+(0.8,0.9)
+0.6000-0.4359=0.1641
+平均:0.0821
+面積:0.00821
+
+(0.9,1.0)
+0.4359-0=0.4359
+平均:0.2179
+面積:0.02179
+
+よって
+面積の合計は0.05
+評価（100点満点） 4点
+[全体公開]○結果が大きく違います。(我妻 広明)
+
+藤野 慶汰, 2016-06-02 12:02 提出 
+自由記述式
+0.7841 + 0.0290i
+評価（100点満点） 2点
+[全体公開]○虚数はシンプソンの方法では出てきません。(我妻 広明)
+
+スティナン アナンタラッタナチャイ, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+鳴海 和, 2016-06-02 12:03 提出 
+自由記述式
+シンプソンの公式は分割して
+定積分＝面積＝幅×平均の高さ
+を用いて台形の面積の合計が定積分の値になる、という考え方である。
+
+10等分なので0~1を
+（0,0.1),(0.1,0.2),(0.2,0.3),(0.3,0.4),(0.4,0.5)(0.5,0.6),(0.6,0.7),(0.7,0.8),(0.8,0.9),(0.9,1.0)に分けて
+
+（0,0.1)のとき
+1-0.9950＝0.0050
+平均は0.0025
+面積は0.00025
+
+(0.1,0.2)
+0.9950-0.9798＝0.0152
+平均は0.0076
+面積は0.00076
+
+(0.2,0.3)
+ 0.9798-0.9539＝0.0259
+平均は0.0129
+面積は0.00129
+
+(0.3,0.4)
+ 0.9539-0.9165＝0.0374
+平均は0.0187
+面積は0.00187
+
+(0.4,0.5)
+0.9165-0.8660＝0.0505
+平均は 0.0252
+面積は0.00252
+
+(0.5,0.6)
+0.8660-0.8000= 0.0660
+平均は 0.0330
+面積は0.00330
+
+(0.6,0.7)
+0.8000-0.7141=0.0859
+平均は0.0429
+面積は0.00429
+
+(0.7,0.8)
+0.7141-0.6000=0.1141
+平均は0.0571
+面積は0.00571
+
+(0.8,0.9)
+0.6000-0.4359=0.1641
+平均は0.0821
+面積は0.00821
+
+(0.9,1.0)
+0.4359-0=0.4359
+平均は0.2179
+面積は0.02179
+
+以上の面積の合計は0.05より、答えは0.05
+評価（100点満点） 4点
+[全体公開]○(我妻 広明)
+
+萩尾 元晴, 2016-06-02 12:03 提出 
+自由記述式
+1
+0.9950
+0.9798
+0.9165
+0.8660
+0.8000
+0.7141
+0.6000
+0.4259
+0
+
+これを足して1/6にする
+評価（100点満点） 2点
+[全体公開]○答えになっていません。最後まできちんと計算して下さい。(我妻 広明)
+
+Thewsuwan Srisupang, 2016-06-02 12:04 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+Labuguen Rollyn, 2016-06-02 12:04 提出 
+自由記述式
+We have n=10
+
+f(x0)=f(a)=f(0)=1=1
+f
+x
+0
+f
+a
+f
+0
+1
+1
+
+4f(x1)=4f(110)=611‾‾‾√5=3.97994974842648
+4
+f
+x
+1
+4
+f
+1
+10
+6
+11
+5
+3.97994974842648
+
+2f(x2)=2f(15)=46‾√5=1.95959179422654
+2
+f
+x
+2
+2
+f
+1
+5
+4
+6
+5
+1.95959179422654
+
+4f(x3)=4f(310)=291‾‾‾√5=3.815756805667782
+4
+f
+x
+3
+4
+f
+3
+10
+2
+91
+5
+3.815756805667782
+
+f(x4)=2f(25)=221‾‾‾√5=1.83303027798234
+f
+x
+4
+2
+f
+2
+5
+2
+21
+5
+1.83303027798234
+
+4f(x5)=4f(12)=23‾√=3.46410161513775
+4
+f
+x
+5
+4
+f
+1
+2
+2
+3
+3.46410161513775
+
+2f(x6)=2f(35)=85=1.6
+2
+f
+x
+6
+2
+f
+3
+5
+8
+5
+1.6
+
+4f(x7)=4f(710)=251‾‾‾√5=2.85657137141714
+4
+f
+x
+7
+4
+f
+7
+10
+2
+51
+5
+2.85657137141714
+
+2f(x8)=2f(45)=65=1.2
+2
+f
+x
+8
+2
+f
+4
+5
+6
+5
+1.2
+
+4f(x9)=4f(910)=219‾‾‾√5=1.74355957741627
+4
+f
+x
+9
+4
+f
+9
+10
+2
+19
+5
+1.74355957741627
+
+f(x10)=f(b)=f(1)=0=0
+f
+x
+10
+f
+b
+f
+1
+0
+0
+
+130(1+3.97994974842648+1.95959179422654+...+1.74355957741627+0)=0.78175203967581
+1
+30
+1
+3.97994974842648
+1.95959179422654
+1.74355957741627
+0
+0.78175203967581
+ 
+Using Simpson's Rule,
+∫011−x2‾‾‾‾‾‾√dx=0.78175203967581
+1
+0
+1
+x
+2
+d
+x
+0.78175203967581
+
+ 
+評価（100点満点） 10点
+[全体公開]○(我妻 広明)
+
+
+一括して「評価○・全体公開」にする

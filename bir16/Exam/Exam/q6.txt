@@ -1,0 +1,1215 @@
+
+
+CL04K
+クラス 15
+まとめ & 期末テスト  - Brainstorming & Exam.   
+問	提出数 
+(未補足数)
+ 1	（10点 / 10 score） 課題#2で計算したマウス増産モデルにおいて、 B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m c'(t) = g*(1-1/n(t)) と与えられるときに、Birth -> Predation -> Migration -> Census の順番として、再帰方程式　n(t+1) = F(n(t),b,d,m,g)を求めよ。また、その変化を可視化するMATLAB programing code を入力すること。 According to the assignment #2, reconsider the mouse model and derive the recursion equation n(t+1) = F(n(t),b,d,m,g) with the following following order, Birth -> Predation -> Migration -> Census which are defined by B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m where c'(t) = g*(1-1/n(t)). In addition, make a MATLAB programing code to visualize the time course of the model.	27(0)
+ 2	（3点 / 3 score）ラグランジュ補間とスプライン補間の数学的な差異について述べよ。 Describe mathematical differences between Lagrange interpolation and spline interpolation.	27(0)
+ 3	（10点 / 10 score） 課題 #4で計算した3次自然スプライン補間関数を次の表を満たすように求めよ．また，同じデータからラグランジュの補間関数を求めよ．最終的に、それら二つの関数をプロットするMATLAB codeを入力せよ。（数式とプログラムは「=====」などで分けること） According to the assignment #4, derive the cubic (3rd order) spline interpolation formula that fit for the given data. In addition, derive the Lagrange interpolation formula for the same data. In addition, please make a matlab programming code to visualize both equations as the graph. （split equatios and programming codes by a line such as "====="）
+xjfj0011233240
+x
+j
+0	1	2	3	4
+f
+j
+0	1	3	2	0
+27(0)
+ 4	（3点 / 3 score） あるベジェ曲線が与えられたとする。その曲線をスプライン曲線で再現できるか？　できるなら例を一つ挙げ、出来ないならその数学的根拠を説明せよ。 Suppose there is a Bzier curve, is it possible to reconstruct a spline curve? If it is possible, show an example in both sides. If it is impossible, describe a mathematical reason why it is impossible.	27(0)
+ 5	（2点 / 2 score）以下の方程式に当てはまるものは何か。What kind of a equation is the following one?
+Qk(n,d)=∑i=1[n/k][n!d!diki!(k!)i(n−ik)!(d−i)!∑j=1k−1Qj(n−ik,d−i)(d−i)n−ikdn−ik]
+Q
+k
+n
+d
+i
+1
+n
+k
+n
+d
+d
+i
+k
+i
+k
+i
+n
+i
+k
+d
+i
+j
+1
+k
+1
+Q
+j
+n
+i
+k
+d
+i
+d
+i
+n
+i
+k
+d
+n
+i
+k
+27(0)
+ 6	（5点 / 5 score）任意の微分方程式を自由に定義し、下記の４種でそれぞれTex記述せよ。複雑である程高い配点とする。 Define an arbitrary equation, and describe it in following four types. Complex one gets a high score. 1) ライプニッツの記法	Leibniz's notation 2) ラグランジュの記法 Lagrange's notation 3) オイラーの記法	Euler's notation 4) ニュートンの記法 Newton's notation	27(0)
+ 7	（10点 / 10 score）次の定積分を、積分区間を10等分してシンプソンの公式を用いて求めよ。 By using the Simpson's equation with 10 divided integral parts, obtain the value.
+∫011−x2‾‾‾‾‾‾√dx
+1
+0
+1
+x
+2
+d
+x
+27(0)
+ 8	（5点 / 5 score）微分方程式の解法であるホイン法の基礎方程式は、偏微分法を用いて得られている。それは何故か。 In the process to obtain the basic equation of Heun's method for solving differential equations, partial differentials are necessary. Why?	27(0)
+ 9	（10点 / 10 score） 課題 #5において、原点からP点までの長さを３に変更した場合、式(3.83)と同様に拘束式を求めよ。また、このヤコビアンを求め、入力せよ。（TeX 形式で入力すること） According to the assignment #5, derive the constraint equation set (such as equation 3.83) and its Jacobian matrix (both equations should be typed in the TeX format)	27(0)
+ 10	（10点 / 10 score） 課題 #7において、body 2の長さを全体で3、body 3の長さを全体で2とした場合の拘束式を求めよ。また、この場合の速度方程式、加速度方程式を求めて求めて入力せよ。（TeX 形式で入力すること） According to the assignment #7, derive the constraint equation set (such as equation 3.83) if lengths of the body 2 and 3 are 3 (the whole length) and 2 (the whole length) and its velocity acceleration equations (both equations should be typed in the TeX format).	27(0)
+ 11	（10点 / 10 score） 上述問題10において、機構の動きを可視化するMATLAB programming codeを作成せよ。 According to the above question 10, make a MATLAB programming code to visualize the kinematic movement as a moving picture.	27(0)
+ 12	（10点 / 10 score） 課題#10「Multilevel modeling of physiological system using dynamical system and PhysioDesigner」(p.27- 34)の　Fitzhugh - Nagumo model　についてPhysioDesignerで、PHMLモジュールを作成し、シミュレーション実験したものを、２個のユニットから３個のユニットに拡張して、PHMLモジュールを作成すること。コードは以下にそのままペーストしてよい。 According to assignment #10 "Multilevel modeling of physiological system using dynamical system and PhysioDesigner" (p. 27-34), make the PHML model as the module in PhysioDesigner, extend the model from 2 unit version (as you tested) to 3 unit version. Type the PHML code like the following: ＜?xml version="1.0" encoding="UTF-8" standalone="no"?＞ ＜is:insilico-model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:svg="http://www.w3.org/2000/svg" xmlns:is="http://www.physiome.jp/ns/insilicoml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:m="http ://www.w3.org/1998/Math/MathML" xmlns:pd="http://www.physiodesigner.org/2012/ns/physiodesigner/1.0" version="1.0" xsi:schemalocation="http://www.physiome.jp/ns/insilicoml-1.0 insilicoml.xsd"＞ ＜is:header＞ ＜is:model-name＞damping oscillation＜/is:model-name＞ ＜is:meta-information＞ ＜is:article-set/＞ ＜is:creator-set/＞ ...	27(0)
+ 13	（5点 / 5 score） 課題13 (1) を参考にして、次の真理値表を完成すること。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式（表）で入力し適切に表示されることを確認すること。 According to assignment #13-1, "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.15)　[you can see the example of the description in the PPT file] type the TeX (Table) format in the KWM input box below, to fulfill empty box in the table by calculating the symbolic logic expression, such as
+pTTFFqTFTF¬p    p→¬q    ¬q→¬p    p∨¬p    
+p	q	¬p	p¬q	¬q¬p	p¬p
+T	T	 	 	 	 
+T	F	 	 	 	 
+F	T	 	 	 	 
+F	F	 	 	 	 
+27(0)
+ 14	（5点 / 5 score） 課題13(2)を参考にしての以下の5つの例文を論理記述式で書け。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式で入力し適切に表示されることを確認すること。 According to assignment #13-2, such as "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.19)　　[you can see the example of the description in the PPT file] type the TeX format in the KWM input box below, to answer the following 5 questions by describing the symbolic logic expression, such as
+∃x¬like(MOTHER(Satoshi),x)
+∃
+x
+¬
+l
+i
+k
+e
+M
+O
+T
+H
+E
+R
+S
+a
+t
+o
+s
+h
+i
+x
+You need to use TeX description for preparing the exam. ===== ex. 1) 私は高速道路を走っている（私は車に乗っており、その車は高速道路を走っている） I'm running on the highway by a car ex. 2) 私は辞書もペンも両方持っている I have a dictionary and a pen ex. 3) 食事を摂らない人間は生きていくことができない All human dead if the one does not take any food. ex. 4) 髪のない人間は髪を触れることができない No one exists to touch the own hair if there is no hair. ex. 5) 飛べない鳥もいる A bird exists which cannot fly. ================ (*1) Table of contents http://ai.tanichu.com/slide_template Slideshow https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhaXdpdGhpbGx1c3RyYXRpb258Z3g6MWFlMWRiMzViYjljMDZlYg	27(0)
+点数のヒストグラム
+未評価
+0-10
+11-20
+21-30
+31-40
+41-50
+51-60
+61-70
+71-80
+81-90
+91-100
+0.0
+7.5
+15.0
+22.5
+30.0
+点数
+人数
+Value
+未評価	0
+0-10	27
+11-20	0
+21-30	0
+31-40	0
+41-50	0
+51-60	0
+61-70	0
+71-80	0
+81-90	0
+91-100	0
+問 6	（5点 / 5 score）任意の微分方程式を自由に定義し、下記の４種でそれぞれTex記述せよ。複雑である程高い配点とする。
+Define an arbitrary equation, and describe it in following four types. Complex one gets a high score.
+
+1) ライプニッツの記法	Leibniz's notation
+2) ラグランジュの記法	Lagrange's notation
+3) オイラーの記法	Euler's notation
+4) ニュートンの記法 Newton's notation
+
+almassri ahmed, 2016-06-02 11:09 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+渡辺 龍二, 2016-06-02 11:13 提出 
+自由記述式
+dydx=ax2+bx+c
+d
+y
+d
+x
+a
+x
+2
+b
+x
+c
+
+y′=ax2+bx+c
+y
+a
+x
+2
+b
+x
+c
+
+Dxy=ax2+bx+c
+D
+x
+y
+a
+x
+2
+b
+x
+c
+
+y˙=ax2+bx+c
+y
+a
+x
+2
+b
+x
+c
+評価（100点満点） 5点
+[全体公開]○(我妻 広明)
+
+岩武 澄, 2016-06-02 11:27 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+福島 克, 2016-06-02 11:42 提出 
+自由記述式
+1)
+f′(x)=dydx
+f
+x
+d
+y
+d
+x
+
+2)
+y=xf(y′)+g(y′)
+y
+x
+f
+y
+g
+y
+
+3)
+eiθ=cosθ+isinθ
+e
+i
+θ
+cos
+θ
+i
+sin
+θ
+
+4)
+ma=md2rdt2=F
+m
+a
+m
+d
+2
+r
+d
+t
+2
+F
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+嘉嶋 賢二, 2016-06-02 12:00 提出 
+自由記述式
+1)  
+md2xdt = −kx
+m
+d
+2
+x
+d
+t
+ 
+ 
+k
+x
+
+2) 
+mf″(x) = −kf(x)
+m
+f
+x
+ 
+ 
+k
+f
+x
+
+3) 
+mD2f = −kf
+m
+D
+2
+f
+ 
+ 
+k
+f
+
+4) 
+mx¨ =−kx
+m
+x
+ 
+k
+x
+評価（100点満点） 5点
+[全体公開]○(我妻 広明)
+
+富永 萌子, 2016-06-02 12:00 提出 
+自由記述式
+ライプニッツの記法で以下に微分方程式を定義する。
+dydx=6x3+2x2+5
+d
+y
+d
+x
+6
+x
+3
+2
+x
+2
+5
+
+
+2) ラグランジュの記法
+f′(x)=6x3+2x2+5
+f
+x
+6
+x
+3
+2
+x
+2
+5
+
+
+3) オイラーの記法
+Dxf=6x3+2x2+5
+D
+x
+f
+6
+x
+3
+2
+x
+2
+5
+
+
+4) ニュートンの記法
+y˙=6x3+2x2+5
+y
+6
+x
+3
+2
+x
+2
+5
+
+
+
+
+評価（100点満点） 5点
+[全体公開]○(我妻 広明)
+
+吉田 裕貴, 2016-06-02 12:00 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+藤田 啓斗, 2016-06-02 12:01 提出 
+自由記述式
+f(x)=x^2*e^(2*x) *g(x)=x^2*f(x)=e(2*x)*g^3(x)=0*f^n(x)=(d^n/dx^n)*g(x)*f(x)=x^2*2^n*e^(2*x)+n*2*x*2^(n-1)
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+木山 雄太, 2016-06-02 12:01 提出 
+自由記述式
+1) ライプニッツの記法	Leibniz's notation
+y=3d3xdt3+4dxdt+2
+y
+3
+d
+3
+x
+d
+t
+3
+4
+d
+x
+d
+t
+2
+
+2) ラグランジュの記法	 Lagrange's notation
+y=3f‴(x)+4f′(x)+2
+y
+3
+f
+x
+4
+f
+x
+2
+
+3) オイラーの記法	Euler's notation
+y=3D3x+4Dx+2
+y
+3
+D
+3
+x
+4
+D
+x
+2
+
+4) ニュートンの記法   Newton's notation
+y=3x⃛ +4x˙+2
+y
+3
+x
+4
+x
+2
+
+
+
+評価（100点満点） 4点
+[全体公開]○(我妻 広明)
+
+朝比奈 涼, 2016-06-02 12:01 提出 
+自由記述式
+1)f(x)=(x^2)*e^(-x)
+f(x)=x^2*e^(2*x)*g(x)
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+JOSHI RAVI PRAKASH, 2016-06-02 12:01 提出 
+自由記述式
+Suppose we have a function f(x) as below -
+f(x)=x2
+f
+x
+x
+2
+
+We can define the following notation for differentiation -
+1) Leibniz's notation 
+dfdx=limh→0f(x+h)−f(x)h=limh→0(x+h)2−(x)2h=limh→0x2+h2+2xh−x2h=limh→0h2+2xhh=limh→0h+2x=2x
+d
+f
+d
+x
+h
+0
+f
+x
+h
+f
+x
+h
+h
+0
+x
+h
+2
+x
+2
+h
+h
+0
+x
+2
+h
+2
+2
+x
+h
+x
+2
+h
+h
+0
+h
+2
+2
+x
+h
+h
+h
+0
+h
+2
+x
+2
+x
+
+2) Lagrange's notation 
+f′(x)=(x2)′=2x
+f
+x
+x
+2
+2
+x
+
+3) Euler's notation 
+Dxf(x)=Dx(x2)=2x
+D
+x
+f
+x
+D
+x
+x
+2
+2
+x
+
+4) Newton's notation 
+y˙=x2˙=2x
+y
+x
+2
+2
+x
+評価（100点満点） 5点
+[全体公開]○(我妻 広明)
+
+齊藤 明王, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+大濵 勇平, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+水谷 龍希, 2016-06-02 12:02 提出 
+自由記述式
+1)
+dydx=xy2
+d
+y
+d
+x
+x
+y
+2
+
+
+2)
+f′(x)=xy2
+f
+x
+x
+y
+2
+
+
+3)
+Dxy=xy2
+D
+x
+y
+x
+y
+2
+
+
+4)
+x˙=xy2
+x
+x
+y
+2
+評価（100点満点） 5点
+[全体公開]○(我妻 広明)
+
+渡辺 裕司, 2016-06-02 12:02 提出 
+自由記述式
+1) 
+dydx=x2y2
+d
+y
+d
+x
+x
+2
+y
+2
+
+
+2) 
+f′(x)=x2y2
+f
+x
+x
+2
+y
+2
+
+
+3) 
+Dxy=x2y2
+D
+x
+y
+x
+2
+y
+2
+
+
+4) 
+x˙=x2y2
+x
+x
+2
+y
+2
+評価（100点満点） 5点
+[全体公開]○(我妻 広明)
+
+松山 公弥, 2016-06-02 12:02 提出 
+自由記述式
+1)
+dydx=xy
+d
+y
+d
+x
+x
+y
+
+
+2)
+f′(x)=xy
+f
+x
+x
+y
+
+
+3)
+Dxy=xy
+D
+x
+y
+x
+y
+
+
+4)
+x˙=xy
+x
+x
+y
+評価（100点満点） 5点
+[全体公開]○(我妻 広明)
+
+森 逸平, 2016-06-02 12:02 提出 
+自由記述式
+y = ax(f(x) = ax) の微分について考える．
+
+1)ライプニッツの記法
+dydx=a
+d
+y
+d
+x
+a
+
+
+2)ラグランジュの記法
+f′(x)=a
+f
+x
+a
+
+
+3)オイラーの記法
+Dxy=a
+D
+x
+y
+a
+
+
+4)ニュートンの記法
+x˙=a
+x
+a
+評価（100点満点） 5点
+[全体公開]○(我妻 広明)
+
+日巻 智貴, 2016-06-02 12:02 提出 
+自由記述式
+2)ラグランジュの記法
+pn(x)=(x−x1)(x−x2)...(x−xn)(x0−x1)(x0−x2)...(x0−xn)f0+(x−x0)(x−x2)...(x−xn)(x1−x01)(x1−x2)...(x1−xn)f1+....+(x−x0)(x−x1)...(x−xn−1)(xn−x0)(xn−x1)...(xn−xn−1)fn
+p
+n
+x
+x
+x
+1
+x
+x
+2
+x
+x
+n
+x
+0
+x
+1
+x
+0
+x
+2
+x
+0
+x
+n
+f
+0
+x
+x
+0
+x
+x
+2
+x
+x
+n
+x
+1
+x
+0
+1
+x
+1
+x
+2
+x
+1
+x
+n
+f
+1
+x
+x
+0
+x
+x
+1
+x
+x
+n
+1
+x
+n
+x
+0
+x
+n
+x
+1
+x
+n
+x
+n
+1
+f
+n
+
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+黒岩 将, 2016-06-02 12:02 提出 
+自由記述式
+f(x)=4x2
+f
+x
+4
+x
+2
+ とした。
+１,Leibniz's notation
+dfdx=8x
+d
+f
+d
+x
+8
+x
+
+2,Lagrange's notation
+f′(x)=8x
+f
+x
+8
+x
+
+3,Eular's notation
+Dxf(x)=8x
+D
+x
+f
+x
+8
+x
+
+4,Newton's notation
+f(x)˙=8x
+f
+x
+8
+x
+評価（100点満点） 5点
+[全体公開]○(我妻 広明)
+
+石田 琢朗, 2016-06-02 12:02 提出 
+自由記述式
+1)
+d2ydx2−6dydx−6y=0
+d
+2
+y
+d
+x
+2
+6
+d
+y
+d
+x
+6
+y
+0
+
+2)
+f″(x)−6f′(x)−6f(x)=0
+f
+x
+6
+f
+x
+6
+f
+x
+0
+
+3)
+D2f−6∗Df−6f=0
+D
+2
+f
+6
+D
+f
+6
+f
+0
+
+4)
+x¨−6x˙−6x=0
+x
+6
+x
+6
+x
+0
+
+
+評価（100点満点） 5点
+[全体公開]○(我妻 広明)
+
+中村 優樹, 2016-06-02 12:02 提出 
+自由記述式
+(1) x/place{dy}{dx}+y+z=0
+(2)xy^{/prime}+y+z=0
+(3)xDxy+y+z=0
+(4)x/do+y +y+z=0
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+藤野 慶汰, 2016-06-02 12:02 提出 
+自由記述式
+ライプニッツ
+v = \frac{d x(t)}{d t}
+ラグランジュ
+v = x^{\prime}(t)
+オイラー
+v =  Dx
+ニュートン
+v = \dot x
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+スティナン アナンタラッタナチャイ, 2016-06-02 12:02 提出 
+自由記述式
+1.
+d2(x)/(dt)2+2∗(dx/dt)+3x=4
+d
+2
+x
+d
+t
+2
+2
+d
+x
+d
+t
+3
+x
+4
+
+2. 
+x″+2x′+3x=4
+x
+2
+x
+3
+x
+4
+
+3.
+D2(x)+2∗D(x)+3x=4
+D
+2
+x
+2
+D
+x
+3
+x
+4
+
+4. 
+x¨+2x˙+3x=4
+x
+2
+x
+3
+x
+4
+評価（100点満点） 5点
+[全体公開]○(我妻 広明)
+
+鳴海 和, 2016-06-02 12:03 提出 
+自由記述式
+1）
+  \frac{dy}{dx}
+  \frac{dz}{dy}\frac{dy}{dx}
+
+2)
+  f'(x),
+  f''(x),
+  f^{(3)}(x)
+  f^{(n)}(x)
+
+3)
+  Df
+  D^(2) f
+  D^(n) f
+  D_x f
+  D^(2)_x f
+  D^(n)_x f
+ちなみにオイラーの公式は
+  \e^{i\theta}=\cos\theta+i\sin\theta
+である。
+
+4)
+  \dot{x}=\frac{dy}{dx}
+  \ddot{x}=\frac{d^(2) y}{dx^(2)}
+
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+萩尾 元晴, 2016-06-02 12:03 提出 
+自由記述式
+1)
+f′(x)
+f
+x
+
+2)
+dxdt
+d
+x
+d
+t
+
+3)
+D2xy
+D
+x
+2
+y
+
+4)
+x˙x¨
+x
+x
+評価（100点満点） 4点
+[全体公開]○(我妻 広明)
+
+Thewsuwan Srisupang, 2016-06-02 12:04 提出 
+自由記述式
+1) Leibniz's notation = uses the symbols dx and dy to represent infinitely small (or infinitesimal) increments of x and y.
+y′=dydxory″=d2ydx2
+y
+d
+y
+d
+x
+o
+r
+y
+d
+2
+y
+d
+x
+2
+
+
+2) Lagrange's notation = It's used the prime mark 
+(f′f″f‴...fn)
+f
+f
+f
+f
+n
+ suffixed to a function
+
+f'(x)  for the first derivative,
+f''(x)  for the second derivative,
+f'''(x)  for the third derivative.
+
+3) Euler's notation = used a differetial operator,denoted as 
+D(Doperator),D̃ 
+D
+D
+o
+p
+e
+r
+a
+t
+o
+r
+D
+
+D≡ddx
+D
+d
+d
+x
+
+
+which must be prefixed to an expression for denoted as dervative
+(Dy,D2y...Dny)
+D
+y
+D
+2
+y
+D
+n
+y
+
+
+when taking the dervative of a dependent 
+y=f(x)
+y
+f
+x
+ 
+it is commond to add the independent variable x as
+(Dxy,D2xy,...,Dnxy)
+D
+x
+y
+D
+x
+2
+y
+D
+x
+n
+y
+
+
+4) Newton's notation = for differentiation ( maybe called the dot notation for differentiation) that required placing the dot over dependent variable as follwing;
+
+y˙≡dydt=ddt(f(t))=Dty=f′(t)=y′t
+y
+d
+y
+d
+t
+d
+d
+t
+f
+t
+D
+t
+y
+f
+t
+y
+t
+
+where the independent variable normally denotes time. 
+for example of Second order derivatives  are shown on below,
+
+y¨≡d2ydt2=ddt(dydt)=ddt(y˙)=ddt(f′(t))=D2ty=f″(t)=y″t
+y
+d
+2
+y
+d
+t
+2
+d
+d
+t
+d
+y
+d
+t
+d
+d
+t
+y
+d
+d
+t
+f
+t
+D
+t
+2
+y
+f
+t
+y
+t
+
+評価（100点満点） 5点
+[全体公開]○(我妻 広明)
+
+Labuguen Rollyn, 2016-06-02 12:04 提出 
+自由記述式
+y=f(x)=x3
+y
+f
+x
+x
+3
+
+
+1) Leibniz's notation 
+dydx=df(x)dx3x2
+d
+y
+d
+x
+d
+f
+x
+d
+x
+3
+x
+2
+
+2) Lagrange's notation 
+y′=f′(x)=3x2
+y
+f
+x
+3
+x
+2
+
+3) Euler's notation 
+Dy=3x2
+D
+y
+3
+x
+2
+
+4) Newton's notation 
+y˙=3x2
+y
+3
+x
+2
+
+
+ 
+評価（100点満点） 5点
+[全体公開]○(我妻 広明)
+
+
+一括して「評価○・全体公開」にする
+
