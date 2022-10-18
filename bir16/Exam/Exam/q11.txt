@@ -1,0 +1,656 @@
+
+
+CL04K
+クラス 15
+まとめ & 期末テスト  - Brainstorming & Exam.   
+問	提出数 
+(未補足数)
+ 1	（10点 / 10 score） 課題#2で計算したマウス増産モデルにおいて、 B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m c'(t) = g*(1-1/n(t)) と与えられるときに、Birth -> Predation -> Migration -> Census の順番として、再帰方程式　n(t+1) = F(n(t),b,d,m,g)を求めよ。また、その変化を可視化するMATLAB programing code を入力すること。 According to the assignment #2, reconsider the mouse model and derive the recursion equation n(t+1) = F(n(t),b,d,m,g) with the following following order, Birth -> Predation -> Migration -> Census which are defined by B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m where c'(t) = g*(1-1/n(t)). In addition, make a MATLAB programing code to visualize the time course of the model.	27(0)
+ 2	（3点 / 3 score）ラグランジュ補間とスプライン補間の数学的な差異について述べよ。 Describe mathematical differences between Lagrange interpolation and spline interpolation.	27(0)
+ 3	（10点 / 10 score） 課題 #4で計算した3次自然スプライン補間関数を次の表を満たすように求めよ．また，同じデータからラグランジュの補間関数を求めよ．最終的に、それら二つの関数をプロットするMATLAB codeを入力せよ。（数式とプログラムは「=====」などで分けること） According to the assignment #4, derive the cubic (3rd order) spline interpolation formula that fit for the given data. In addition, derive the Lagrange interpolation formula for the same data. In addition, please make a matlab programming code to visualize both equations as the graph. （split equatios and programming codes by a line such as "====="）
+xjfj0011233240
+x
+j
+0	1	2	3	4
+f
+j
+0	1	3	2	0
+27(0)
+ 4	（3点 / 3 score） あるベジェ曲線が与えられたとする。その曲線をスプライン曲線で再現できるか？　できるなら例を一つ挙げ、出来ないならその数学的根拠を説明せよ。 Suppose there is a Bzier curve, is it possible to reconstruct a spline curve? If it is possible, show an example in both sides. If it is impossible, describe a mathematical reason why it is impossible.	27(0)
+ 5	（2点 / 2 score）以下の方程式に当てはまるものは何か。What kind of a equation is the following one?
+Qk(n,d)=∑i=1[n/k][n!d!diki!(k!)i(n−ik)!(d−i)!∑j=1k−1Qj(n−ik,d−i)(d−i)n−ikdn−ik]
+Q
+k
+n
+d
+i
+1
+n
+k
+n
+d
+d
+i
+k
+i
+k
+i
+n
+i
+k
+d
+i
+j
+1
+k
+1
+Q
+j
+n
+i
+k
+d
+i
+d
+i
+n
+i
+k
+d
+n
+i
+k
+27(0)
+ 6	（5点 / 5 score）任意の微分方程式を自由に定義し、下記の４種でそれぞれTex記述せよ。複雑である程高い配点とする。 Define an arbitrary equation, and describe it in following four types. Complex one gets a high score. 1) ライプニッツの記法	Leibniz's notation 2) ラグランジュの記法	Lagrange's notation 3) オイラーの記法	Euler's notation 4) ニュートンの記法 Newton's notation	27(0)
+ 7	（10点 / 10 score）次の定積分を、積分区間を10等分してシンプソンの公式を用いて求めよ。 By using the Simpson's equation with 10 divided integral parts, obtain the value.
+∫011−x2‾‾‾‾‾‾√dx
+1
+0
+1
+x
+2
+d
+x
+27(0)
+ 8	（5点 / 5 score）微分方程式の解法であるホイン法の基礎方程式は、偏微分法を用いて得られている。それは何故か。 In the process to obtain the basic equation of Heun's method for solving differential equations, partial differentials are necessary. Why?	27(0)
+ 9	（10点 / 10 score） 課題 #5において、原点からP点までの長さを３に変更した場合、式(3.83)と同様に拘束式を求めよ。また、このヤコビアンを求め、入力せよ。（TeX 形式で入力すること） According to the assignment #5, derive the constraint equation set (such as equation 3.83) and its Jacobian matrix (both equations should be typed in the TeX format)	27(0)
+ 10	（10点 / 10 score） 課題 #7において、body 2の長さを全体で3、body 3の長さを全体で2とした場合の拘束式を求めよ。また、この場合の速度方程式、加速度方程式を求めて求めて入力せよ。（TeX 形式で入力すること） According to the assignment #7, derive the constraint equation set (such as equation 3.83) if lengths of the body 2 and 3 are 3 (the whole length) and 2 (the whole length) and its velocity acceleration equations (both equations should be typed in the TeX format).	27(0)
+ 11	（10点 / 10 score） 上述問題10において、機構の動きを可視化するMATLAB programming codeを作成せよ。 According to the above question 10, make a MATLAB programming code to visualize the kinematic movement as a moving picture.	27(0)
+ 12	（10点 / 10 score） 課題#10「Multilevel modeling of physiological system using dynamical system and PhysioDesigner」(p.27- 34)の　Fitzhugh - Nagumo model　についてPhysioDesignerで、PHMLモジュールを作成し、シミュレーション実験したものを、２個のユニットから３個のユニットに拡張して、PHMLモジュールを作成すること。コードは以下にそのままペーストしてよい。 According to assignment #10 "Multilevel modeling of physiological system using dynamical system and PhysioDesigner" (p. 27-34), make the PHML model as the module in PhysioDesigner, extend the model from 2 unit version (as you tested) to 3 unit version. Type the PHML code like the following: ＜?xml version="1.0" encoding="UTF-8" standalone="no"?＞ ＜is:insilico-model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:svg="http://www.w3.org/2000/svg" xmlns:is="http://www.physiome.jp/ns/insilicoml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:m="http ://www.w3.org/1998/Math/MathML" xmlns:pd="http://www.physiodesigner.org/2012/ns/physiodesigner/1.0" version="1.0" xsi:schemalocation="http://www.physiome.jp/ns/insilicoml-1.0 insilicoml.xsd"＞ ＜is:header＞ ＜is:model-name＞damping oscillation＜/is:model-name＞ ＜is:meta-information＞ ＜is:article-set/＞ ＜is:creator-set/＞ ...	27(0)
+ 13	（5点 / 5 score） 課題13 (1) を参考にして、次の真理値表を完成すること。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式（表）で入力し適切に表示されることを確認すること。 According to assignment #13-1, "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.15)　[you can see the example of the description in the PPT file] type the TeX (Table) format in the KWM input box below, to fulfill empty box in the table by calculating the symbolic logic expression, such as
+pTTFFqTFTF¬p    p→¬q    ¬q→¬p    p∨¬p    
+p	q	¬p	p¬q	¬q¬p	p¬p
+T	T	 	 	 	 
+T	F	 	 	 	 
+F	T	 	 	 	 
+F	F	 	 	 	 
+27(0)
+ 14	（5点 / 5 score） 課題13(2)を参考にしての以下の5つの例文を論理記述式で書け。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式で入力し適切に表示されることを確認すること。 According to assignment #13-2, such as "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.19)　　[you can see the example of the description in the PPT file] type the TeX format in the KWM input box below, to answer the following 5 questions by describing the symbolic logic expression, such as
+∃x¬like(MOTHER(Satoshi),x)
+∃
+x
+¬
+l
+i
+k
+e
+M
+O
+T
+H
+E
+R
+S
+a
+t
+o
+s
+h
+i
+x
+You need to use TeX description for preparing the exam. ===== ex. 1) 私は高速道路を走っている（私は車に乗っており、その車は高速道路を走っている） I'm running on the highway by a car ex. 2) 私は辞書もペンも両方持っている I have a dictionary and a pen ex. 3) 食事を摂らない人間は生きていくことができない All human dead if the one does not take any food. ex. 4) 髪のない人間は髪を触れることができない No one exists to touch the own hair if there is no hair. ex. 5) 飛べない鳥もいる A bird exists which cannot fly. ================ (*1) Table of contents http://ai.tanichu.com/slide_template Slideshow https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhaXdpdGhpbGx1c3RyYXRpb258Z3g6MWFlMWRiMzViYjljMDZlYg	27(0)
+点数のヒストグラム
+未評価
+0-10
+11-20
+21-30
+31-40
+41-50
+51-60
+61-70
+71-80
+81-90
+91-100
+0.0
+7.5
+15.0
+22.5
+30.0
+点数
+人数
+Value
+未評価	0
+0-10	27
+11-20	0
+21-30	0
+31-40	0
+41-50	0
+51-60	0
+61-70	0
+71-80	0
+81-90	0
+91-100	0
+問 11	（10点 / 10 score）
+上述問題10において、機構の動きを可視化するMATLAB programming codeを作成せよ。
+
+According to the above question 10, make a MATLAB programming code to visualize the kinematic movement as a moving picture.
+
+almassri ahmed, 2016-06-02 11:09 提出 
+自由記述式
+===============matlab code ==================
+syms x1 y1 phi1 x4 y4 phi4 x1Plocal y1Plocal x4Plocal y4Plocal
+
+R=@(phi) ([cos(phi) -sin(phi);sin(phi) cos(phi);]);
+
+r1=[x1 y1]';
+s1local=[x1Plocal y1Plocal]';
+s1=R(phi1)*s1local;
+r4=[x4 y4]';
+s4local=[x4Plocal y4Plocal]';
+s4=R(phi4)*s4local;
+PhiR1_1_4=r4+s4-r1-s1;
+display(PhiR1_1_4)
+q= [x1 y1 phi1 x2 y2 phi2 x3 y3 phi3 x4 y4 phi4];
+qdiff=diff(q.t);
+diff(r1)
+
+============matlab code for R1(4;1) ============
+
+syms x1 y1 phi1 x4 y4 phi4 x1Plocal y1Plocal x4Plocal y4Plocal
+
+R=@(phi) ([cos(phi) -sin(phi);sin(phi) cos(phi);]);
+
+r1=[x1 y1]';
+s1local=[0 0]';
+s1=R(phi1)*s1local;
+r4=[x4 y4]';
+s4local=[-1 0]';
+s4=R(phi4)*s4local;
+
+PhiR1_1_4=r4+s4-r1-s1
+
+============ the result ==============
+
+PhiR1_1_4 =
+ 
+conj(x4) - conj(x1) - cos(phi4)
+ conj(y4) - conj(y1) - sin(phi4)
+after arrange based on [x1 y1 ϕ1 x2 y2 ϕ2 x3 y3 ϕ3 x4 y4 ϕ4 ], the output is
+-􀀀x1 + cos ϕ1 + x4
+-􀀀y1 + sin ϕ1 + y4
+
+
+===============matlab code for R2(1;2)  ==================
+syms x1 y1 phi1 x2 y2 phi2 x1Plocal y1Plocal x4Plocal y4Plocal
+
+R=@(phi) ([cos(phi) -sin(phi);sin(phi) cos(phi);]);
+
+r1=[x1 y1]';
+s1local=[1 0]';
+s1=R(phi1)*s1local;
+r4=[x2 y2]';
+s4local=[-1.5  0]';
+s4=R(phi2)*s4local;
+
+PhiR1_1_2=r4+s4-r1-s1;
+display(PhiR1_1_2)
+q= [x1 y1 phi1 x2 y2 phi2 x3 y3 phi3 x4 y4 phi4];
+qdiff=diff(q.t);
+diff(r1)
+
+============ the result ==============
+PhiR1_1_2 =
+ 
+ conj(x4) - (3*cos(phi4))/2 - conj(x1) - cos(phi1)
+ conj(y4) - conj(y1) - sin(phi1) - (3*sin(phi4))/2
+ 
+===============matlab code for R2(2;3)  ==================
+syms x2 y3 phi2 x3 y3 phi3 x1Plocal y1Plocal x4Plocal y4Plocal
+
+R=@(phi) ([cos(phi) -sin(phi);sin(phi) cos(phi);]);
+
+r1=[x2 y2]';
+s1local=[1.5 0]';
+s1=R(phi1)*s1local;
+r4=[x3 y3]';
+s4local=[1.5 0]';
+s4=R(phi2)*s4local;
+
+PhiR1_2_3=r4+s4-r1-s1;
+display(PhiR1_2_3)
+q= [x1 y1 phi1 x2 y2 phi2 x3 y3 phi3 x4 y4 phi4];
+qdiff=diff(q.t);
+diff(r1)
+============ the result ==============
+PhiR1_2_3 =
+ 
+ (3*cos(phi4))/2 - (3*cos(phi1))/2 - conj(x1) + conj(x4)
+ conj(y4) - conj(y1) - (3*sin(phi1))/2 + (3*sin(phi4))/2
+
+
+===============matlab code for R2(3;4)  ==================
+syms x3 y3 phi3 x4 y4 phi4 x1Plocal y1Plocal x4Plocal y4Plocal
+
+R=@(phi) ([cos(phi) -sin(phi);sin(phi) cos(phi);]);
+
+r1=[x3 y3]';
+s1local=[-1.5 0]';
+s1=R(phi3)*s1local;
+r4=[x4 y4]';
+s4local=[1.5 0]';
+s4=R(phi4)*s4local;
+PhiR1_3_4=r4+s4-r1-s1;
+display(PhiR1_3_4)
+q= [x1 y1 phi1 x2 y2 phi2 x3 y3 phi3 x4 y4 phi4];
+qdiff=diff(q.t);
+diff(r1)
+
+
+============ the result ==============
+PhiR1_3_4 =
+ 
+  (3*cos(phi1))/2 + (3*cos(phi4))/2 - conj(x1) + conj(x4)
+ conj(y4) - conj(y1) + (3*sin(phi1))/2 + (3*sin(phi4))/2
+ 
+ 
+評価（100点満点） 8点
+[全体公開]○(我妻 広明)
+
+渡辺 龍二, 2016-06-02 11:13 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+岩武 澄, 2016-06-02 11:27 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+福島 克, 2016-06-02 11:42 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+嘉嶋 賢二, 2016-06-02 12:00 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+富永 萌子, 2016-06-02 12:00 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+吉田 裕貴, 2016-06-02 12:00 提出 
+自由記述式
+%n変数のニュートンラプソン法(位置，速度，加速度解析)
+L0=1;L1=1;L2=1.5;L3=1;L4=1;L5=1;
+At=[0 0 0 0 0 0 0 0 0 0 0 0 0 0 pi/6];
+omg=pi/(6*10);
+k=1;
+ x0=[0,1,90*pi/180,  1.5,2,0*pi/180,  3,1.5,60*pi/180,  4,1,120*pi/180,  3,0,10*pi/180];
+%syms x1 y1 th1 x2 y2 th2 x3 y3 th3 x4 y4 th4
+NEW=200;%ニュートン法の計算回数
+for t=-10:1:40%t=0.0:0.1:1.5
+ for i=1:NEW;% while(1) %ニュートン法
+     %位置解析
+faikqt=[x0(1)-L1*cos(x0(3));
+        x0(2)-L1*sin(x0(3));
+        x0(4)-2*x0(1)-L2*cos(x0(6));
+        x0(5)-2*x0(2)-L2*sin(x0(6));
+        x0(7)-2*L0-L3*cos(x0(9));
+        x0(8)-L3*sin(x0(9));
+        x0(10)-2*L0-2*L3*cos(x0(9))-L4*cos(x0(12));
+        x0(11)-2*L3*sin(x0(9))-L4*sin(x0(12));
+        x0(13)-2*L0-L5*cos(x0(15));
+        x0(14)-L5*sin(x0(15));
+        2*x0(1)+2*L2*cos(x0(6))-2*L0-2*L3*cos(x0(9));%p8x
+        2*x0(2)+2*L2*sin(x0(6))-2*L3*sin(x0(9));%p8y
+        2*L3*cos(x0(9))+2*L4*cos(x0(12))-2*L5*cos(x0(15));%p9x
+        2*L3*sin(x0(9))+2*L4*sin(x0(12))-2*L5*sin(x0(15));%p9y
+        x0(3)-omg*t-pi/2];
+    
+      x0=[x0(1);x0(2);x0(3);x0(4);x0(5);x0(6);x0(7);x0(8);x0(9);x0(10);x0(11);x0(12);x0(13);x0(14);x0(15)];
+      
+      j1=[ 1, 0,    L1*sin(x0(3)), 0, 0,                0, 0, 0,                0, 0, 0,                 0, 0, 0,                 0];
+      j2=[ 0, 1,   -L1*cos(x0(3)), 0, 0,                0, 0, 0,                0, 0, 0,                 0, 0, 0,                 0];
+      j3=[ 0, 0,  2*L1*sin(x0(3)), 1, 0,    L2*sin(x0(6)), 0, 0,                0, 0, 0,                 0, 0, 0,                 0];
+      j4=[ 0, 0, -2*L1*cos(x0(3)), 0, 1,   -L2*cos(x0(6)), 0, 0,                0, 0, 0,                 0, 0, 0,                 0];
+      j5=[ 0, 0,                0, 0, 0,                0, 1, 0,    L3*sin(x0(9)), 0, 0,                 0, 0, 0,                 0];
+      j6=[ 0, 0,                0, 0, 0,                0, 0, 1,   -L3*cos(x0(9)), 0, 0,                 0, 0, 0,                 0];
+      j7=[ 0, 0,                0, 0, 0,                0, 0, 0,  2*L3*sin(x0(9)), 1, 0,    L4*sin(x0(12)), 0, 0,                 0];
+      j8=[ 0, 0,                0, 0, 0,                0, 0, 0, -2*L3*cos(x0(9)), 0, 1,   -L4*cos(x0(12)), 0, 0,                 0];
+      j9=[ 0, 0,                0, 0, 0,                0, 0, 0,                0, 0, 0,                 0, 1, 0,    L5*sin(x0(15))];
+     j10=[ 0, 0,                0, 0, 0,                0, 0, 0,                0, 0, 0,                 0, 0, 1,   -L5*cos(x0(15))];
+     j11=[ 2, 0,                0, 0, 0, -2*L2*sin(x0(6)), 0, 0,  2*L3*sin(x0(9)), 0, 0,                 0, 0, 0,                 0];
+     j12=[ 0, 2,                0, 0, 0,  2*L2*cos(x0(6)), 0, 0, -2*L3*cos(x0(9)), 0, 0,                 0, 0, 0,                 0];
+     j13=[ 0, 0,                0, 0, 0,                0, 0, 0, -2*L3*sin(x0(9)), 0, 0, -2*L4*sin(x0(12)), 0, 0,  2*L5*sin(x0(15))];
+     j14=[ 0, 0,                0, 0, 0,                0, 0, 0,  2*L3*cos(x0(9)), 0, 0,  2*L4*cos(x0(12)), 0, 0, -2*L5*cos(x0(15))];
+     j15=[ 0, 0,                1, 0, 0,                0, 0, 0,                0, 0, 0,                 0, 0, 0,                 0];
+      
+      Jqt=[j1;j2;j3;j4;j5;j6;j7;j8;j9;j10;j11;j12;j13;j14;j15];
+      
+      n=-faikqt;
+      dx0=Jqt\n;
+      x=x0+dx0;
+      d=max(abs(dx0));
+      q2=max(abs(faikqt));
+      
+    if i==NEW
+          display('Newton法で収束しません(収束回数=NEW)')
+          %pause%任意のキーを押すと再びプログラムが動く
+    end;
+    if d<=0.001 && q2<=0.001
+          x;break;
+    end;
+    x0=x;
+  end
+  
+    %速度解析
+    Att=ctranspose(At);
+    dx=Jqt\Att;
+    %加速度解析
+      s1=[ 0, 0,   dx0(3)*L1*cos(x0(3)), 0, 0,                       0, 0, 0,                       0, 0, 0,                         0, 0, 0,                        0];
+      s2=[ 0, 0,   dx0(3)*L1*sin(x0(3)), 0, 0,                       0, 0, 0,                       0, 0, 0,                         0, 0, 0,                        0];
+      s3=[ 0, 0, dx0(3)*2*L1*cos(x0(3)), 0, 0,    dx0(6)*L2*cos(x0(6)), 0, 0,                       0, 0, 0,                         0, 0, 0,                        0];
+      s4=[ 0, 0, dx0(3)*2*L1*sin(x0(3)), 0, 0,    dx0(6)*L2*sin(x0(6)), 0, 0,                       0, 0, 0,                         0, 0, 0,                        0];
+      s5=[ 0, 0,                      0, 0, 0,                       0, 0, 0,    dx0(9)*L3*cos(x0(9)), 0, 0,                         0, 0, 0,                        0];
+      s6=[ 0, 0,                      0, 0, 0,                       0, 0, 0,    dx0(9)*L3*sin(x0(9)), 0, 0,                         0, 0, 0,                        0];
+      s7=[ 0, 0,                      0, 0, 0,                       0, 0, 0,  dx0(9)*2*L3*cos(x0(9)), 0, 0,    dx0(12)*L4*cos(x0(12)), 0, 0,                        0];
+      s8=[ 0, 0,                      0, 0, 0,                       0, 0, 0,  dx0(9)*2*L3*sin(x0(9)), 0, 0,    dx0(12)*L4*sin(x0(12)), 0, 0,                        0];
+      s9=[ 0, 0,                      0, 0, 0,                       0, 0, 0,                       0, 0, 0,                         0, 0, 0,   dx0(15)*L5*cos(x0(15))];
+     s10=[ 0, 0,                      0, 0, 0,                       0, 0, 0,                       0, 0, 0,                         0, 0, 0,   dx0(15)*L5*sin(x0(15))];
+     s11=[ 0, 0,                      0, 0, 0, -dx0(6)*2*L2*cos(x0(6)), 0, 0,  dx0(9)*2*L3*cos(x0(9)), 0, 0,                         0, 0, 0,                        0];
+     s12=[ 0, 0,                      0, 0, 0, -dx0(6)*2*L2*sin(x0(6)), 0, 0,  dx0(9)*2*L3*sin(x0(9)), 0, 0,                         0, 0, 0,                        0];
+     s13=[ 0, 0,                      0, 0, 0,                       0, 0, 0, -dx0(9)*2*L3*cos(x0(9)), 0, 0, -dx0(12)*2*L4*cos(x0(12)), 0, 0, dx0(15)*2*L5*cos(x0(15))];
+     s14=[ 0, 0,                      0, 0, 0,                       0, 0, 0, -dx0(9)*2*L3*sin(x0(9)), 0, 0, -dx0(12)*2*L4*sin(x0(12)), 0, 0, dx0(15)*2*L5*sin(x0(15))];
+     s15=[ 0, 0,                      0, 0, 0,                       0, 0, 0,                       0, 0, 0,                         0, 0, 0,                        0];
+ 
+    bq=-[s1;s2;s3;s4;s5;s6;s7;s8;s9;s10;s11;s12;s13;s14;s15];
+    bq_dq=bq*dx;
+    ddx=Jqt\bq_dq;
+    
+    X(k)=x0(13,1);
+    V(k)=dx(13,1);
+    A(k)=ddx(13,1);
+    
+    k=k+1;
+ 
+%=====PLOT=========================================
+    figure(1);clf
+    plot(0,0,'ko');hold on
+    plot(x0(1),x0(2),'r+');plot(x0(4),x0(5),'r+');plot(x0(7),x0(8),'r+');%各リンクの中心位置
+    plot([0, 2*L0],[0, 0],'b');hold on%p0-p6
+    plot([2*L0, x0(7)+L3*cos(x0(9))],[0, x0(8)+L3*sin(x0(9))],'b');hold on%p6-p8
+    plot([0, 2*x0(1)],[0, 2*x0(2)],'b');hold on%p0-p7
+    plot([2*x0(1), x0(7)+L3*cos(x0(9))],[2*x0(2), x0(8)+L3*sin(x0(9))],'b');hold on%p7-p8
+    
+    xlim([-3 5])
+    ylim([-3 5])
+    
+    pause(0.2)
+    xlabel('x');
+    ylabel('y');
+    %pause%任意のキーを押すと再びプログラムが動く
+end
+評価（100点満点） 10点
+[全体公開](我妻 広明)
+
+藤田 啓斗, 2016-06-02 12:01 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+木山 雄太, 2016-06-02 12:01 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+朝比奈 涼, 2016-06-02 12:01 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+JOSHI RAVI PRAKASH, 2016-06-02 12:01 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+齊藤 明王, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+大濵 勇平, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+水谷 龍希, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+渡辺 裕司, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+松山 公弥, 2016-06-02 12:02 提出 
+自由記述式
+%n変数のニュートンラプソン法(位置，速度，加速度解析)    
+%newton_n1.m
+clear
+At=[0.0,0.0,0.0,0.0,0.0,pi/6]';%運動学拘束式の時間tによる
+
+k=1;
+for t=0.0:0.1:1.5
+  x0=[0.5,-0.866,pi*5/3+pi*t/6,1.5,-1.0,6.14]';%xの初期値とyの初期値
+  angle(k)=(5/3+t/6)*180;
+  
+    %位置解析
+    while(1)
+      [x,d,q,Aq]=posi_ana(x0,t);
+      if d<=0.001 && q<=0.001
+          x;
+          break;
+      end;
+      x0=x;
+    end
+ 
+    %速度解析
+    dx=Aq\At;
+    
+    %加速度解析
+    y1=[0,0,1.5*dx(3)*cos(x(3)),0,0,0];
+    y2=[0,0,1.5*dx(3)*sin(x(3)),0,0,0];
+    y3=[0,0,1.5*dx(3)*cos(x(3)),0,0,2*dx(6)*cos(x(6))];
+    y4=[0,0,1.5*dx(3)*sin(x(3)),0,0,2*dx(6)*sin(x(6))];
+    y5=[0,0,0,0,0,0];
+    y6=[0,0,0,0,0,0];
+    
+    bq=-[y1;y2;y3;y4;y5;y6];
+    bq_dq=bq*dx;
+    ddx=Aq\bq_dq;
+    
+    X1(k)=x(4);
+    DX1(k)=dx(4);
+    DDX1(k)=ddx(4);
+    k=k+1;
+end
+
+figure(1);
+subplot(311);
+plot(angle,X1,'k');
+grid on;
+xlabel('角度[deg]');
+ylabel('変位');
+title('ボディ2のx方向の変位');
+subplot(312);
+plot(angle,DX1,'k');
+grid on;
+xlabel('角度[deg]');
+ylabel('速度');
+title('ボディ2のx方向の速度');
+subplot(313);
+plot(angle,DDX1,'k');
+grid on;
+xlabel('角度[deg]');
+ylabel('加速度');
+title('ボディ2のx方向の加速度');
+
+
+%位置解析
+%posi_ana.m
+
+function [x,d,q,Aq]=posi_ana (x0,t)
+
+%運動学拘束式の要素
+z1=x0(1)-1.5*cos(x0(3));
+z2=x0(2)-1.5*sin(x0(3));
+z3=x0(4)-1.5*cos(x0(3))-2*cos(x0(6));
+z4=x0(5)-1.5*sin(x0(3))-2*sin(x0(6));
+z5=x0(5)+1;
+z6=x0(3)-(pi/6)*t-(5*pi/3);
+
+%ヤコビ行列の要素
+a1=[1,0,1.5*sin(x0(3)),0,0,0];
+a2=[0,1,-1.5*cos(x0(3)),0,0,0];
+a3=[0,0,1.5*sin(x0(3)),1,0,2*sin(x0(6))];
+a4=[0,0,-1.5*cos(x0(3)),0,1,-2*cos(x0(6))];
+a5=[0,0,0,0,1,0];
+a6=[0,0,1,0,0,0];
+
+A=-[z1;z2;z3;z4;z5;z6];%運動学拘束式
+Aq=[a1;a2;a3;a4;a5;a6];%ヤコビ行列
+dx=Aq\A;
+x=x0+dx;
+[d]=max(abs(dx));
+b=[z1;z2;z3;z4;z5;z6];
+[q]=max(abs(b));
+評価（100点満点） 8点
+[全体公開]○(我妻 広明)
+
+森 逸平, 2016-06-02 12:02 提出 
+自由記述式
+matlabの使い方をマスターできず，分かりませんでした．
+評価（100点満点） 0点
+[全体公開]○毎回MATLAB関連の宿題が出ていてやっていただいたはずなのですが、。。。(我妻 広明)
+
+日巻 智貴, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+黒岩 将, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+石田 琢朗, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+中村 優樹, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+藤野 慶汰, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+スティナン アナンタラッタナチャイ, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+鳴海 和, 2016-06-02 12:03 提出 
+自由記述式
+all clear;
+syms x1 x2 x3 x4 y1 y2 y3 y4 ph1 ph2 ph3 ph4 t w
+
+q=[x1;y1;ph1;x2;y2;ph2;x3;y3;ph3;x4;y4;ph4]; 
+
+PH1(q)=-x1+cos(ph1)+x4;
+PH2(q)=-y1+sin(ph1)+y4;
+PH3(q)=-x1-cos(ph1)+x2-2*cos(ph2);
+PH4(q)=-y1-sin(ph1)+y2-2*sin(ph2);
+PH5(q)=-x2-1.5*cos(ph2)+x3+1.5*cos(ph3);
+PH6(q)=-y2-1.5*sin(ph2)+y3+1.5*sin(ph3);
+PH7(q)=-x3+cos(ph3)+x4+cos(ph4);
+PH8(q)=-y3+sin(ph3)+y4+sin(ph4);
+PHax(q)=x4;
+PHay(q)=y4;
+PHaph(q)=ph4;
+
+PHK(q)=[PH1;PH2;PH3;PH4;PH5;PH6;PH7;PH8;PHax;PHay;PHaph];
+PHD(q)=ph1-w*t;
+PH=[PHK;PHD];
+
+PHt=diff(PH,t)
+PHq=[x1;y1;ph1;x2;y2;ph2;x3;y3;ph3;x4;y4;ph4];
+
+Fq=jacobian(PH,q)
+
+PHtt=diff(PHt,t)
+PHqt=diff(PHq,t)
+
+
+Fqq=jacobian(Fq*q,q)
+
+Fqq*q
+評価（100点満点） 7点
+[全体公開]○(我妻 広明)
+
+萩尾 元晴, 2016-06-02 12:03 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+Thewsuwan Srisupang, 2016-06-02 12:04 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+Labuguen Rollyn, 2016-06-02 12:04 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+
+一括して「評価○・全体公開」にする

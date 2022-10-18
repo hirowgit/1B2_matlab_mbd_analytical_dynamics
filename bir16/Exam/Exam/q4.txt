@@ -1,0 +1,335 @@
+
+
+CL04K
+クラス 15
+まとめ & 期末テスト  - Brainstorming & Exam.   
+問	提出数 
+(未補足数)
+ 1	（10点 / 10 score） 課題#2で計算したマウス増産モデルにおいて、 B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m c'(t) = g*(1-1/n(t)) と与えられるときに、Birth -> Predation -> Migration -> Census の順番として、再帰方程式　n(t+1) = F(n(t),b,d,m,g)を求めよ。また、その変化を可視化するMATLAB programing code を入力すること。 According to the assignment #2, reconsider the mouse model and derive the recursion equation n(t+1) = F(n(t),b,d,m,g) with the following following order, Birth -> Predation -> Migration -> Census which are defined by B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m where c'(t) = g*(1-1/n(t)). In addition, make a MATLAB programing code to visualize the time course of the model.	27(0)
+ 2	（3点 / 3 score）ラグランジュ補間とスプライン補間の数学的な差異について述べよ。 Describe mathematical differences between Lagrange interpolation and spline interpolation.	27(0)
+ 3	（10点 / 10 score） 課題 #4で計算した3次自然スプライン補間関数を次の表を満たすように求めよ．また，同じデータからラグランジュの補間関数を求めよ．最終的に、それら二つの関数をプロットするMATLAB codeを入力せよ。（数式とプログラムは「=====」などで分けること） According to the assignment #4, derive the cubic (3rd order) spline interpolation formula that fit for the given data. In addition, derive the Lagrange interpolation formula for the same data. In addition, please make a matlab programming code to visualize both equations as the graph. （split equatios and programming codes by a line such as "====="）
+xjfj0011233240
+x
+j
+0	1	2	3	4
+f
+j
+0	1	3	2	0
+27(0)
+ 4	（3点 / 3 score） あるベジェ曲線が与えられたとする。その曲線をスプライン曲線で再現できるか？　できるなら例を一つ挙げ、出来ないならその数学的根拠を説明せよ。 Suppose there is a Bzier curve, is it possible to reconstruct a spline curve? If it is possible, show an example in both sides. If it is impossible, describe a mathematical reason why it is impossible.	27(0)
+ 5	（2点 / 2 score）以下の方程式に当てはまるものは何か。What kind of a equation is the following one?
+Qk(n,d)=∑i=1[n/k][n!d!diki!(k!)i(n−ik)!(d−i)!∑j=1k−1Qj(n−ik,d−i)(d−i)n−ikdn−ik]
+Q
+k
+n
+d
+i
+1
+n
+k
+n
+d
+d
+i
+k
+i
+k
+i
+n
+i
+k
+d
+i
+j
+1
+k
+1
+Q
+j
+n
+i
+k
+d
+i
+d
+i
+n
+i
+k
+d
+n
+i
+k
+27(0)
+ 6	（5点 / 5 score）任意の微分方程式を自由に定義し、下記の４種でそれぞれTex記述せよ。複雑である程高い配点とする。 Define an arbitrary equation, and describe it in following four types. Complex one gets a high score. 1) ライプニッツの記法	Leibniz's notation 2) ラグランジュの記法	Lagrange's notation 3) オイラーの記法	Euler's notation 4) ニュートンの記法 Newton's notation	27(0)
+ 7	（10点 / 10 score）次の定積分を、積分区間を10等分してシンプソンの公式を用いて求めよ。 By using the Simpson's equation with 10 divided integral parts, obtain the value.
+∫011−x2‾‾‾‾‾‾√dx
+1
+0
+1
+x
+2
+d
+x
+27(0)
+ 8	（5点 / 5 score）微分方程式の解法であるホイン法の基礎方程式は、偏微分法を用いて得られている。それは何故か。 In the process to obtain the basic equation of Heun's method for solving differential equations, partial differentials are necessary. Why?	27(0)
+ 9	（10点 / 10 score） 課題 #5において、原点からP点までの長さを３に変更した場合、式(3.83)と同様に拘束式を求めよ。また、このヤコビアンを求め、入力せよ。（TeX 形式で入力すること） According to the assignment #5, derive the constraint equation set (such as equation 3.83) and its Jacobian matrix (both equations should be typed in the TeX format)	27(0)
+ 10	（10点 / 10 score） 課題 #7において、body 2の長さを全体で3、body 3の長さを全体で2とした場合の拘束式を求めよ。また、この場合の速度方程式、加速度方程式を求めて求めて入力せよ。（TeX 形式で入力すること） According to the assignment #7, derive the constraint equation set (such as equation 3.83) if lengths of the body 2 and 3 are 3 (the whole length) and 2 (the whole length) and its velocity acceleration equations (both equations should be typed in the TeX format).	27(0)
+ 11	（10点 / 10 score） 上述問題10において、機構の動きを可視化するMATLAB programming codeを作成せよ。 According to the above question 10, make a MATLAB programming code to visualize the kinematic movement as a moving picture.	27(0)
+ 12	（10点 / 10 score） 課題#10「Multilevel modeling of physiological system using dynamical system and PhysioDesigner」(p.27- 34)の　Fitzhugh - Nagumo model　についてPhysioDesignerで、PHMLモジュールを作成し、シミュレーション実験したものを、２個のユニットから３個のユニットに拡張して、PHMLモジュールを作成すること。コードは以下にそのままペーストしてよい。 According to assignment #10 "Multilevel modeling of physiological system using dynamical system and PhysioDesigner" (p. 27-34), make the PHML model as the module in PhysioDesigner, extend the model from 2 unit version (as you tested) to 3 unit version. Type the PHML code like the following: ＜?xml version="1.0" encoding="UTF-8" standalone="no"?＞ ＜is:insilico-model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:svg="http://www.w3.org/2000/svg" xmlns:is="http://www.physiome.jp/ns/insilicoml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:m="http ://www.w3.org/1998/Math/MathML" xmlns:pd="http://www.physiodesigner.org/2012/ns/physiodesigner/1.0" version="1.0" xsi:schemalocation="http://www.physiome.jp/ns/insilicoml-1.0 insilicoml.xsd"＞ ＜is:header＞ ＜is:model-name＞damping oscillation＜/is:model-name＞ ＜is:meta-information＞ ＜is:article-set/＞ ＜is:creator-set/＞ ...	27(0)
+ 13	（5点 / 5 score） 課題13 (1) を参考にして、次の真理値表を完成すること。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式（表）で入力し適切に表示されることを確認すること。 According to assignment #13-1, "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.15)　[you can see the example of the description in the PPT file] type the TeX (Table) format in the KWM input box below, to fulfill empty box in the table by calculating the symbolic logic expression, such as
+pTTFFqTFTF¬p    p→¬q    ¬q→¬p    p∨¬p    
+p	q	¬p	p¬q	¬q¬p	p¬p
+T	T	 	 	 	 
+T	F	 	 	 	 
+F	T	 	 	 	 
+F	F	 	 	 	 
+27(0)
+ 14	（5点 / 5 score） 課題13(2)を参考にしての以下の5つの例文を論理記述式で書け。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式で入力し適切に表示されることを確認すること。 According to assignment #13-2, such as "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.19)　　[you can see the example of the description in the PPT file] type the TeX format in the KWM input box below, to answer the following 5 questions by describing the symbolic logic expression, such as
+∃x¬like(MOTHER(Satoshi),x)
+∃
+x
+¬
+l
+i
+k
+e
+M
+O
+T
+H
+E
+R
+S
+a
+t
+o
+s
+h
+i
+x
+You need to use TeX description for preparing the exam. ===== ex. 1) 私は高速道路を走っている（私は車に乗っており、その車は高速道路を走っている） I'm running on the highway by a car ex. 2) 私は辞書もペンも両方持っている I have a dictionary and a pen ex. 3) 食事を摂らない人間は生きていくことができない All human dead if the one does not take any food. ex. 4) 髪のない人間は髪を触れることができない No one exists to touch the own hair if there is no hair. ex. 5) 飛べない鳥もいる A bird exists which cannot fly. ================ (*1) Table of contents http://ai.tanichu.com/slide_template Slideshow https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhaXdpdGhpbGx1c3RyYXRpb258Z3g6MWFlMWRiMzViYjljMDZlYg	27(0)
+点数のヒストグラム
+未評価
+0-10
+11-20
+21-30
+31-40
+41-50
+51-60
+61-70
+71-80
+81-90
+91-100
+0.0
+7.5
+15.0
+22.5
+30.0
+点数
+人数
+Value
+未評価	0
+0-10	27
+11-20	0
+21-30	0
+31-40	0
+41-50	0
+51-60	0
+61-70	0
+71-80	0
+81-90	0
+91-100	0
+問 4	（3点 / 3 score）
+あるベジェ曲線が与えられたとする。その曲線をスプライン曲線で再現できるか？　できるなら例を一つ挙げ、出来ないならその数学的根拠を説明せよ。
+Suppose there is a Bzier curve, is it possible to reconstruct a spline curve? If it is possible, show an example in both sides. If it is impossible, describe a mathematical reason why it is impossible.
+
+almassri ahmed, 2016-06-02 11:09 提出 
+自由記述式
+yes, 
+If we know the distance between two points, and we want a new point that is, say, 20% the distance away from the first point (and thus 80% the distance away from the second point) then we can compute
+p1 = some points
+p2= some other points
+distance = p2-p1
+ratio= percentage/100
+new point= p1+distance * ratio
+
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+渡辺 龍二, 2016-06-02 11:13 提出 
+自由記述式
+ベジェ曲線で通過する点を３つ設定すると、基本的には２点間の曲線を求めることになるので曲線は２つできる。曲線と曲線の関係をどうするか決まっていないので、微分できないような急に折れたようにまがる曲線を描くことも可能である。スプライン曲線の場合は曲線同士がなめらかにつながるように曲線を求めるため、ベジェ曲線のような急に折れたような曲線は描くことができない。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+岩武 澄, 2016-06-02 11:27 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+福島 克, 2016-06-02 11:42 提出 
+自由記述式
+できると思う。スプライン曲線は、直線間の補完と考えられており、曲線同士のつながりが良いため。
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+嘉嶋 賢二, 2016-06-02 12:00 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+富永 萌子, 2016-06-02 12:00 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+吉田 裕貴, 2016-06-02 12:00 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+藤田 啓斗, 2016-06-02 12:01 提出 
+自由記述式
+
+
+例
+二次関数
+y=x^2
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+木山 雄太, 2016-06-02 12:01 提出 
+自由記述式
+できる。例として8の字ベジェ曲線は、スプライン曲線で再現できる。
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+朝比奈 涼, 2016-06-02 12:01 提出 
+自由記述式
+表現できる
+例：3次式以上で表現される曲線
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+JOSHI RAVI PRAKASH, 2016-06-02 12:01 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+齊藤 明王, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+大濵 勇平, 2016-06-02 12:02 提出 
+自由記述式
+できない。
+理由は、ベジエ曲線は、データ点とデータ点の終端を直線で結ぶ方法だからである。
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+水谷 龍希, 2016-06-02 12:02 提出 
+自由記述式
+不可能。スプライン曲線は全ての制御点を通るのに対し、ベジエ曲線は始点と終点以外の制御点は一般的に通らないからである。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+渡辺 裕司, 2016-06-02 12:02 提出 
+自由記述式
+再現することができる。
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+松山 公弥, 2016-06-02 12:02 提出 
+自由記述式
+二次のベジェ曲線について、曲線状に細かくスプライン曲線の通過点を打つことで、ベジェ曲線をスプライン曲線で再現可能。
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+森 逸平, 2016-06-02 12:02 提出 
+自由記述式
+不可能である．
+スプライン曲線はすべての制御点を通るのに対して，ベジェ曲線は始点と終点以外の制御点は一般的に通らないためである．
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+日巻 智貴, 2016-06-02 12:02 提出 
+自由記述式
+不可能である。
+ベジェは初期値が少なくとも３点において、点のプロット数を3→nにする。（nは任意の数）その際、座標は連続する２点間の中点に設定し、何度も分割を行う。そのため、非線形かつ、カオスな図形にも適応できるが、スプライン曲線はカオスに対応していない。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+黒岩 将, 2016-06-02 12:02 提出 
+自由記述式
+不可能である。スプライン曲線は原則すべての制御点を通るよう補間を行う。ベジェ曲線は原則始点と終点以外の制御点を通らないため事実上スプライン曲線での補間は不可能である。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+石田 琢朗, 2016-06-02 12:02 提出 
+自由記述式
+ベジェ曲線はスプライン曲線で再現可能である。例としてy=x^3をあげると、y=x^3はベジェ曲線で書くことができ、またベジェ曲線上の点を等間隔にとることにより、スプライン曲線でも再現可能である。
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+中村 優樹, 2016-06-02 12:02 提出 
+自由記述式
+放物線
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+藤野 慶汰, 2016-06-02 12:02 提出 
+自由記述式
+３次ベジェ曲線はスプライン曲線で再現できる
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+スティナン アナンタラッタナチャイ, 2016-06-02 12:02 提出 
+自由記述式
+Possible. For example, in the case of cubic Beizer curve and the famous cubic spline polynomial for 4 points, writing in Berstein polynomial form,
+P(t) = B_1*J_1 + ... + B_4*J_4 where B_i = i-th control point of the Beizer
+and then we can find the derivatives of P(t) at the end points where t=0 and t=1.
+and use them to approximate the tangent vectors at the end points.
+We will get the equivalent cubic spline Geometry matrix. In a similar way, we can convert a cubic spline back to Bezier by using the end tangent vectors to define b_i (the control points) in the Bernstein polynomial form of Beizer curve.
+評価（100点満点） 3点
+[全体公開]○(我妻 広明)
+
+鳴海 和, 2016-06-02 12:03 提出 
+自由記述式
+再現できる。
+なぜならベジェ曲線で「S」字を描いたとする。
+その曲線の通過点をいくつか用意し、用意した通過点でスプライン曲線を描けば同じように「S」字が描ける。
+ただ、注意しなければならないのが、用意する通過点が少ないと同じように描けない場合があるので
+ある程度の通過点の数は必要になる。
+評価（100点満点） 3点
+[全体公開]○(我妻 広明)
+
+萩尾 元晴, 2016-06-02 12:03 提出 
+自由記述式
+ベジェ曲線はひとつの点が少しでも動くと曲線全体が変化してしまうので再現できない。
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+Thewsuwan Srisupang, 2016-06-02 12:04 提出 
+自由記述式
+It possible, A "spline" is a more general term than a “bezier curve”. 
+A bezier curve is a particular polynomial function, usually either cubic or quadratic, that defines a curve that goes from point A to point B given some control points in between. A bezier spline is an aggregation of n of these. 
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+Labuguen Rollyn, 2016-06-02 12:04 提出 
+自由記述式
+It is possible to reconstruct a spline curve if there is a Bezier curve. The spline curve is a piecewise curve with each component of a curve of degree P. http://reference.wolfram.com/language/ref/Files/BezierCurve.ja/O_1.gif
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+
+一括して「評価○・全体公開」にする
+

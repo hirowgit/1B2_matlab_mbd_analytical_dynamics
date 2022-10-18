@@ -1,0 +1,1141 @@
+
+
+CL04K
+クラス 15
+まとめ & 期末テスト  - Brainstorming & Exam.   
+問	提出数 
+(未補足数)
+ 1	（10点 / 10 score） 課題#2で計算したマウス増産モデルにおいて、 B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m c'(t) = g*(1-1/n(t)) と与えられるときに、Birth -> Predation -> Migration -> Census の順番として、再帰方程式　n(t+1) = F(n(t),b,d,m,g)を求めよ。また、その変化を可視化するMATLAB programing code を入力すること。 According to the assignment #2, reconsider the mouse model and derive the recursion equation n(t+1) = F(n(t),b,d,m,g) with the following following order, Birth -> Predation -> Migration -> Census which are defined by B: n'(t) = n(t) +b/c(t) n(t) P: n'(t) = n(t) -d*c(t) n(t) M: n'(t) = n(t) +m where c'(t) = g*(1-1/n(t)). In addition, make a MATLAB programing code to visualize the time course of the model.	27(0)
+ 2	（3点 / 3 score）ラグランジュ補間とスプライン補間の数学的な差異について述べよ。 Describe mathematical differences between Lagrange interpolation and spline interpolation.	27(0)
+ 3	（10点 / 10 score） 課題 #4で計算した3次自然スプライン補間関数を次の表を満たすように求めよ．また，同じデータからラグランジュの補間関数を求めよ．最終的に、それら二つの関数をプロットするMATLAB codeを入力せよ。（数式とプログラムは「=====」などで分けること） According to the assignment #4, derive the cubic (3rd order) spline interpolation formula that fit for the given data. In addition, derive the Lagrange interpolation formula for the same data. In addition, please make a matlab programming code to visualize both equations as the graph. （split equatios and programming codes by a line such as "====="）
+xjfj0011233240
+x
+j
+0	1	2	3	4
+f
+j
+0	1	3	2	0
+27(0)
+ 4	（3点 / 3 score） あるベジェ曲線が与えられたとする。その曲線をスプライン曲線で再現できるか？　できるなら例を一つ挙げ、出来ないならその数学的根拠を説明せよ。 Suppose there is a Bzier curve, is it possible to reconstruct a spline curve? If it is possible, show an example in both sides. If it is impossible, describe a mathematical reason why it is impossible.	27(0)
+ 5	（2点 / 2 score）以下の方程式に当てはまるものは何か。What kind of a equation is the following one?
+Qk(n,d)=∑i=1[n/k][n!d!diki!(k!)i(n−ik)!(d−i)!∑j=1k−1Qj(n−ik,d−i)(d−i)n−ikdn−ik]
+Q
+k
+n
+d
+i
+1
+n
+k
+n
+d
+d
+i
+k
+i
+k
+i
+n
+i
+k
+d
+i
+j
+1
+k
+1
+Q
+j
+n
+i
+k
+d
+i
+d
+i
+n
+i
+k
+d
+n
+i
+k
+27(0)
+ 6	（5点 / 5 score）任意の微分方程式を自由に定義し、下記の４種でそれぞれTex記述せよ。複雑である程高い配点とする。 Define an arbitrary equation, and describe it in following four types. Complex one gets a high score. 1) ライプニッツの記法	Leibniz's notation 2) ラグランジュの記法	Lagrange's notation 3) オイラーの記法	Euler's notation 4) ニュートンの記法 Newton's notation	27(0)
+ 7	（10点 / 10 score）次の定積分を、積分区間を10等分してシンプソンの公式を用いて求めよ。 By using the Simpson's equation with 10 divided integral parts, obtain the value.
+∫011−x2‾‾‾‾‾‾√dx
+1
+0
+1
+x
+2
+d
+x
+27(0)
+ 8	（5点 / 5 score）微分方程式の解法であるホイン法の基礎方程式は、偏微分法を用いて得られている。それは何故か。 In the process to obtain the basic equation of Heun's method for solving differential equations, partial differentials are necessary. Why?	27(0)
+ 9	（10点 / 10 score） 課題 #5において、原点からP点までの長さを３に変更した場合、式(3.83)と同様に拘束式を求めよ。また、このヤコビアンを求め、入力せよ。（TeX 形式で入力すること） According to the assignment #5, derive the constraint equation set (such as equation 3.83) and its Jacobian matrix (both equations should be typed in the TeX format)	27(0)
+ 10	（10点 / 10 score） 課題 #7において、body 2の長さを全体で3、body 3の長さを全体で2とした場合の拘束式を求めよ。また、この場合の速度方程式、加速度方程式を求めて求めて入力せよ。（TeX 形式で入力すること） According to the assignment #7, derive the constraint equation set (such as equation 3.83) if lengths of the body 2 and 3 are 3 (the whole length) and 2 (the whole length) and its velocity acceleration equations (both equations should be typed in the TeX format).	27(0)
+ 11	（10点 / 10 score） 上述問題10において、機構の動きを可視化するMATLAB programming codeを作成せよ。 According to the above question 10, make a MATLAB programming code to visualize the kinematic movement as a moving picture.	27(0)
+ 12	（10点 / 10 score） 課題#10「Multilevel modeling of physiological system using dynamical system and PhysioDesigner」(p.27- 34)の　Fitzhugh - Nagumo model　についてPhysioDesignerで、PHMLモジュールを作成し、シミュレーション実験したものを、２個のユニットから３個のユニットに拡張して、PHMLモジュールを作成すること。コードは以下にそのままペーストしてよい。 According to assignment #10 "Multilevel modeling of physiological system using dynamical system and PhysioDesigner" (p. 27-34), make the PHML model as the module in PhysioDesigner, extend the model from 2 unit version (as you tested) to 3 unit version. Type the PHML code like the following: ＜?xml version="1.0" encoding="UTF-8" standalone="no"?＞ ＜is:insilico-model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:svg="http://www.w3.org/2000/svg" xmlns:is="http://www.physiome.jp/ns/insilicoml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:m="http ://www.w3.org/1998/Math/MathML" xmlns:pd="http://www.physiodesigner.org/2012/ns/physiodesigner/1.0" version="1.0" xsi:schemalocation="http://www.physiome.jp/ns/insilicoml-1.0 insilicoml.xsd"＞ ＜is:header＞ ＜is:model-name＞damping oscillation＜/is:model-name＞ ＜is:meta-information＞ ＜is:article-set/＞ ＜is:creator-set/＞ ...	27(0)
+ 13	（5点 / 5 score） 課題13 (1) を参考にして、次の真理値表を完成すること。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式（表）で入力し適切に表示されることを確認すること。 According to assignment #13-1, "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.15)　[you can see the example of the description in the PPT file] type the TeX (Table) format in the KWM input box below, to fulfill empty box in the table by calculating the symbolic logic expression, such as
+pTTFFqTFTF¬p    p→¬q    ¬q→¬p    p∨¬p    
+p	q	¬p	p¬q	¬q¬p	p¬p
+T	T	 	 	 	 
+T	F	 	 	 	 
+F	T	 	 	 	 
+F	F	 	 	 	 
+27(0)
+ 14	（5点 / 5 score） 課題13(2)を参考にしての以下の5つの例文を論理記述式で書け。 （谷口先生のスライドを参考にしても良い。） KWMの入力欄にTeX形式で入力し適切に表示されることを確認すること。 According to assignment #13-2, such as "Introduction to Artificial Intelligence" (by Prof. Tadahiro Taniguchi) (p.19)　　[you can see the example of the description in the PPT file] type the TeX format in the KWM input box below, to answer the following 5 questions by describing the symbolic logic expression, such as
+∃x¬like(MOTHER(Satoshi),x)
+∃
+x
+¬
+l
+i
+k
+e
+M
+O
+T
+H
+E
+R
+S
+a
+t
+o
+s
+h
+i
+x
+You need to use TeX description for preparing the exam. ===== ex. 1) 私は高速道路を走っている（私は車に乗っており、その車は高速道路を走っている） I'm running on the highway by a car ex. 2) 私は辞書もペンも両方持っている I have a dictionary and a pen ex. 3) 食事を摂らない人間は生きていくことができない All human dead if the one does not take any food. ex. 4) 髪のない人間は髪を触れることができない No one exists to touch the own hair if there is no hair. ex. 5) 飛べない鳥もいる A bird exists which cannot fly. ================ (*1) Table of contents http://ai.tanichu.com/slide_template Slideshow https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhaXdpdGhpbGx1c3RyYXRpb258Z3g6MWFlMWRiMzViYjljMDZlYg	27(0)
+点数のヒストグラム
+未評価
+0-10
+11-20
+21-30
+31-40
+41-50
+51-60
+61-70
+71-80
+81-90
+91-100
+0.0
+7.5
+15.0
+22.5
+30.0
+点数
+人数
+Value
+未評価	0
+0-10	27
+11-20	0
+21-30	0
+31-40	0
+41-50	0
+51-60	0
+61-70	0
+71-80	0
+81-90	0
+91-100	0
+問 3	（10点 / 10 score）
+課題 #4で計算した3次自然スプライン補間関数を次の表を満たすように求めよ．また，同じデータからラグランジュの補間関数を求めよ．最終的に、それら二つの関数をプロットするMATLAB codeを入力せよ。（数式とプログラムは「=====」などで分けること）
+
+According to the assignment #4, derive the cubic (3rd order) spline interpolation formula that fit for the given data. In addition, derive the Lagrange interpolation formula for the same data. In addition, please make a matlab programming code to visualize both equations as the graph. （split equatios and programming codes by a line such as "====="）
+
+xjfj0011233240
+x
+j
+0	1	2	3	4
+f
+j
+0	1	3	2	0
+
+
+
+
+
+
+
+almassri ahmed, 2016-06-02 11:09 提出 
+自由記述式
+ the spline interpolation formula is
+
+s(x)= 
+           
+        { (32/28)*x                                                                                −∞ < x ≤ 0,
+( − 1/35)x 3 + (32/28)x                                                                        0 ≤ x ≤ 1,
+( − 1/35)(2 − x)(x ^2 − 4x − 53) − (3/7)(x − 1)(2x^ 2 − 5x − 9)               1 ≤ x ≤ 2,
+( − 3/7)(3 − x)(2x^ 2 − 12x + 11) + (1/28)(x − 2)(13x^ 2 − 52x + 54)        2 ≤ x ≤ 3,
+(1/35)(3 − x)(15x^ 2 − 106x + 250)                                                          3 ≤ x ≤ 4,
+( − 16/35)(x − 4)                                                                                       4 < x < ∞ .
+}
+
+
+============================================================
+
+ the Lagrange interpolation formula is
+p(x)= ((x-x1)(x-x2)(x-x3)/(x0-x1)(x0-x2)(x0-x3))*f0+
+         ((x-x0)(x-x2)(x-x3)/(x1-x0)(x1-x2)(x1-x3))*f1+
+         ((x-x0)(x-x1)(x-x3)/(x2-x0)(x2-x1)(x2-x3))*f2+ 
+         ((x-x0)(x-x1)(x-x2)/(x3-x0)(x3-x1)(x3-x2))*f3
+
+============================================================
+
+by using MATLAB code 
+x = [ 0.0,1.0,2.0,3.0,4.0];
+y = [0,1.0,3.0,2.0,0.0];
+xInt = -1 : 0.01 : 10;
+yInt1 = LagrangeInter(x,y,xInt);
+plot(xInt,yInt1,'g',x,y,'b*');
+評価（100点満点） 5点
+[全体公開]○Only three components are right. 
+=======
+clear all
+fg=[0 1 3 2 0];
+xx=[0 1 2 3 4];
+
+h=0.001;
+% st ans
+figure(8); clf
+w=1;
+basex=repmat(0:h:1-h,[length(xx)+1 1])';
+xn=repmat([xx(1)-w xx],[size(basex,1) 1]);
+xn=xn+basex;    
+
+yn(:,1) =  (32/28)*xn(:,1);
+yn(:,2) = ( - 1/35)*xn(:,2)*3 + (32/28)*xn(:,2) 
+yn(:,3) = ( - 1/35)*(2 - xn(:,3)).*(xn(:,3).^2 - 4*xn(:,3) - 53) - (3/7)*(xn(:,3) - 1).*(2*xn(:,3).^2 - 5*xn(:,3) - 9)  
+yn(:,4) =( - 3/7)*(3 - xn(:,4)).*(2*xn(:,4).^ 2 - 12*xn(:,4) + 11) + (1/28)*(xn(:,4) - 2).*(13*xn(:,4).^ 2 - 52*xn(:,4) + 54)
+yn(:,5) = (1/35)*(3 - xn(:,5)).*(15*xn(:,5).^ 2 - 106*xn(:,5) + 250) 
+yn(:,6) = (-16/35)*(xn(:,6) - 4)   
+
+% yn(:,1) = (15*xn(:,1))/28;
+% yn(:,2) = (13*xn(:,2).^3)/28 + (15*xn(:,2))/28;
+% yn(:,3) = (93*xn(:,3))/28 - (6*(xn(:,3) - 1).^3)/7 - (13*(xn(:,3) - 2).^3)/28 - 39/14;
+% yn(:,4) = (6*(xn(:,4) - 3).^3)/7 - (xn(:,4) - 2).^3/28 - (51*xn(:,4))/28 + 15/2;
+% yn(:,5) = (xn(:,5) - 4).^3/28 - (57*xn(:,5))/28 + 57/7;
+% yn(:,6) =  57/7 - (57*xn(:,6))/28;
+
+plot(xn,yn), hold on;
+
+
+plot(xx,fg,'r.','MarkerSize',20), hold on;
+title('this Answer & true answer');
+
+
+=======
+In Lagrange interpolation formula,
+you forgot x4 and f4
+(我妻 広明)
+
+渡辺 龍二, 2016-06-02 11:13 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+岩武 澄, 2016-06-02 11:27 提出 
+自由記述式
+数式は以下の6つの式から成り立つ
+(x≦0)のとき f(x)=(27*x)/28　　　　　　　　　　
+(0≦x≦1)のとき f(x)=x^3/28 + (27*x)/28
+(1≦x≦2)のとき f(x)=(33*x)/28 - (x - 1)^3/7 - (x - 2)^3/28 - 3/14
+(2≦x≦3)のとき f(x)=(9*x)/28 - (13*(x - 2)^3)/28 + (x - 3)^3/7 + 3/2
+(3≦x≦4)のとき f(x)=(13*(x - 4)^3)/28 - (69*x)/28 + 69/7
+(4≦x)のとき f(x)=69/7 - (69*x)/28
+
+=======================================================
+コードは以下である
+syms x
+N=5; 
+xj = sym('x',[N 1]);
+fj = sym('f',[N 1]);
+hj = sym('h',[N-1 1]);
+
+Mj = sym('M',[N 1]);
+Sj = sym('S',[N 1]);
+
+xj=[0 1 2 3 4];
+fj=[0 1 2 2 0];
+
+hj=xj(2:N)-xj(1:N-1);
+aj=hj(1:N-2)./(hj(2:N-1)+hj(1:N-2));
+bj=1-aj;
+cj=(fj(2:N)-fj(1:N-1))./hj;
+dj=[6*(cj(2:N-1)-cj(1:N-2))./(hj(2:N-1)+hj(1:N-2))]';
+
+diag_elem=2.*ones(1,N-2);
+Aij=diag(diag_elem);
+for k=2:N-2
+ Aij(k,k-1)=aj(k);
+ Aij(k-1,k)=bj(k-1);
+end 
+
+Eqn = Aij*Mj(2:N-1)==dj;
+
+SolvedVariables = solve(Eqn);
+cellSolutions=struct2cell(SolvedVariables); % struct -> cell
+cellSolutions{:}; 
+
+for j=2:size(Mj,1)
+if isfield(SolvedVariables, char(Mj(j)))
+ valName=char(Mj(j));
+ Mval(j)=getfield(SolvedVariables, char(Mj(j)));
+ stOut =sprintf('%s = %s\n',valName,char(Mval(j)));
+ display(stOut);
+else 
+
+end
+
+end
+Mval=[Mval 0];
+for j=1:size(Mj,1)-1
+ Sj(j)=Mval(j)/(6*hj(j))*(xj(j+1)-x)^3+Mval(j+1)/(6*hj(j))*(x-xj(j))^3 ...
+ +(fj(j)-Mval(j)*hj(j)^2/6)*(xj(j+1)-x)/hj(j)+(fj(j+1)-Mval(j+1)*hj(j)^2/6)*(x-xj(j))/hj(j);
+
+end
+
+finalSj=[subs(diff(Sj(1)),x,xj(1))*(x-xj(1))+fj(1); 
+ Sj(1:N-1); 
+subs(diff(Sj(N-1)),x,xj(N))*(x-xj(N))+fj(N);]
+
+ExpFinalSj=expand(finalSj);
+display(ExpFinalSj);
+評価（100点満点） 2点
+[全体公開]○使うプログラムはあっていますが、fj=[0 1 2 2 0];は設問の[0 1 3 2 0];に直して使わないと正しい計算が行われません。したがって、答えが違っています。また、配点はスプライン3点、ラグランジュ3点、プロットをするプログラム3点（全部揃ってボーナス点１点）です。ラグランジュの計算と、プロット（図を表示するプログラム）が入っておりませんでした。
+
+答えが合っているかどうかは、得られた近似曲線と与えられたデータ点を一緒にプロットしてみれば、すぐにわかります。
+
+===
+
+clear all
+fg=[0 1 3 2 0];
+xx=[0 1 2 3 4];
+
+h=0.001;
+% st ans
+figure(8); clf
+w=1;
+basex=repmat(0:h:1-h,[length(xx)+1 1])';
+xn=repmat([xx(1)-w xx],[size(basex,1) 1]);
+xn=xn+basex;    
+　(我妻 広明)
+
+福島 克, 2016-06-02 11:42 提出 
+自由記述式
+                                        (15*x)/28
+                          (13*x^3)/28 + (15*x)/28
+ - (37*x^3)/28 + (75*x^2)/14 - (135*x)/28 + 25/14
+   (23*x^3)/28 - (15*x^2)/2 + (585*x)/28 - 215/14
+             x^3/28 - (3*x^2)/7 - (9*x)/28 + 41/7
+                                 57/7 - (57*x)/28
+
+
+
+
+====================プログラム=====================
+
+syms x
+N=5;  
+xj = sym('x',[N 1]);
+fj = sym('f',[N 1]);
+hj = sym('h',[N-1 1]);
+
+Mj = sym('M',[N 1]);
+Sj = sym('S',[N 1]);
+
+xj=[0 1 2 3 4];
+fj=[0 1 3 2 0];
+
+hj=xj(2:N)-xj(1:N-1);
+aj=hj(1:N-2)./(hj(2:N-1)+hj(1:N-2));
+bj=1-aj;
+cj=(fj(2:N)-fj(1:N-1))./hj;
+dj=[6*(cj(2:N-1)-cj(1:N-2))./(hj(2:N-1)+hj(1:N-2))]';
+
+diag_elem=2.*ones(1,N-2);
+Aij=diag(diag_elem);
+for k=2:N-2
+    Aij(k,k-1)=aj(k);
+    Aij(k-1,k)=bj(k-1);
+end    
+%------------
+
+% Aij=[2 1/2 0; 1/2 2 1/2; 0 1/2 2];
+% M=[M2 M3 M4];
+% dj=[-3 -9 3]';
+
+Eqn = Aij*Mj(2:N-1)==dj;
+
+SolvedVariables = solve(Eqn);
+cellSolutions=struct2cell(SolvedVariables);  % struct -> cell
+cellSolutions{:};  
+% matS2=cell2mat(cellfun(@double,cellSolutions,'UniformOutput', false)); %
+% cell -> mat
+
+for j=2:size(Mj,1)
+if isfield(SolvedVariables, char(Mj(j)))
+    valName=char(Mj(j));
+    Mval(j)=getfield(SolvedVariables, char(Mj(j)));
+    stOut =sprintf('%s = %s\n',valName,char(Mval(j)));
+    display(stOut);
+else 
+%     display('empty');
+end
+
+end
+Mval=[Mval 0];
+for j=1:size(Mj,1)-1
+    Sj(j)=Mval(j)/(6*hj(j))*(xj(j+1)-x)^3+Mval(j+1)/(6*hj(j))*(x-xj(j))^3 ...
+    +(fj(j)-Mval(j)*hj(j)^2/6)*(xj(j+1)-x)/hj(j)+(fj(j+1)-Mval(j+1)*hj(j)^2/6)*(x-xj(j))/hj(j);
+
+end
+
+finalSj=[subs(diff(Sj(1)),x,xj(1))*(x-xj(1))+fj(1); 
+    Sj(1:N-1); 
+subs(diff(Sj(N-1)),x,xj(N))*(x-xj(N))+fj(N);]
+
+ExpFinalSj=expand(finalSj);
+display(ExpFinalSj);
+評価（100点満点） 3点
+[全体公開]○スプライン計算はあっています。ただ、ラグランジュの計算とプロットをするプログラムが入っておりませんでした。
+
+===(我妻 広明)
+
+嘉嶋 賢二, 2016-06-02 12:00 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+富永 萌子, 2016-06-02 12:00 提出 
+自由記述式
+3次スプライン補間関数は
+S=
+S
+
+⎧⎩⎨⎪⎪⎪⎪⎪⎪(15/28)x     (−∞<x<=0)(13x3)/28+(15x)/28     (0<=x<=1)(93/28)x−(6(x−1)3)/7−(13(x−2)3)/28−39/14     (1<=x<=2)(6(x−3)3)/7−(x−2)3/28−(51/28)x+15/2     (2<=x<=3)(x−4)3/28−(57/28)x+57/7     (3<=x<=4)(57/7)−(57/28)x     (4<=x<∞)
+15
+28x     ∞x0
+13
+x
+3
+2815x
+28     0x1
+93
+28x6x1
+3
+713x2
+3
+2839
+14     1x2
+6x3
+3
+7x2
+3
+2851
+28x15
+2     2x3
+x4
+3
+2857
+28x57
+7     3x4
+57
+757
+28x     4x∞
+
+
+また、ラグランジュの補間関数は
+
+p(x)=(x(x−1)(x−3)(x−4))/4−(x(x−1)(x−2)(x−4))/2−(x(x−2)(x−3)(x−4))/6
+p
+x
+x
+x
+1
+x
+3
+x
+4
+4
+x
+x
+1
+x
+2
+x
+4
+2
+x
+x
+2
+x
+3
+x
+4
+6
+
+
+==============3次スプライン補間関数　MATLAB　Code==============================================
+x1 = -1:0.001:0;
+y1 = (15*x1)/28;
+x2 = 0:0.001:1;
+y2 = (13*x2.^3)/28 + (15*x2)/28;
+x3 = 1:0.001:2;
+y3 = (93*x3)/28 - (6*(x3 - 1).^3)/7 - (13*(x3 - 2).^3)/28 - 39/14;
+x4 = 2:0.001:3;
+y4 = (6*(x4 - 3).^3)/7 - (x4 - 2).^3/28 - (51*x4)/28 + 15/2;
+x5 = 3:0.001:4;
+y5 = (x5 - 4).^3/28 - (57*x5)/28 + 57/7;
+x6 = 4:0.001:5;
+y6 =  57/7 - (57*x6)/28;
+
+plot(x1,y1,x2,y2,x3,y3,x4,y4,x5,y5,x6,y6);
+
+==============ラグランジュ補間関数　MATLAB　Code==============================================
+
+
+
+
+
+
+
+
+
+
+評価（100点満点） 6点
+[全体公開]f0=0; f1=1; f2=3; f3=2; f4=0;
+x0=0; x1=1; x2=2; x3=3; x4=4;
+
+fg=[0 1 3 2 0];
+xx=[0 1 2 3 4];
+
+
+
+% st ans
+figure(8); clf
+x1 = -1:0.001:0;
+y1 = (15*x1)/28;
+x2 = 0:0.001:1;
+y2 = (13*x2.^3)/28 + (15*x2)/28;
+x3 = 1:0.001:2;
+y3 = (93*x3)/28 - (6*(x3 - 1).^3)/7 - (13*(x3 - 2).^3)/28 - 39/14;
+x4 = 2:0.001:3;
+y4 = (6*(x4 - 3).^3)/7 - (x4 - 2).^3/28 - (51*x4)/28 + 15/2;
+x5 = 3:0.001:4;
+y5 = (x5 - 4).^3/28 - (57*x5)/28 + 57/7;
+x6 = 4:0.001:5;
+y6 =  57/7 - (57*x6)/28;
+
+plot(x1,y1,x2,y2,x3,y3,x4,y4,x5,y5,x6,y6), hold on;
+
+
+plot(xx,fg,'r.','MarkerSize',20), hold on;
+title('this Answer & true answer');
+
+figure(9); clf
+
+subplot(1,2,1); 
+x=-1:0.1:5;
+p1= @(x) (x.*(x-1).*(x-3).*(x-4))/4-(x.*(x-1).*(x-2).*(x-4))/2-(x.*(x-2).*(x-3).*(x-4))/6;
+
+plot(x,p1(x),'b-'), hold on;
+plot(xx,fg,'r.','MarkerSize',20), hold on;
+set(gca,'xlim',[-1,5],'ylim',[-2,6]);
+title('this Answer');
+
+p1=@(x) (3*x.*(x - 1).*(x - 3).*(x - 4))/4 - (x.*(x - 1).*(x - 2).*(x - 4))/3 - (x.*(x - 2).*(x - 3).*(x - 4))/6;
+subplot(1,2,2); 
+  plot(x,p1(x),'b-'), hold on;
+plot(xx,fg,'r.','MarkerSize',20), hold on;
+set(gca,'xlim',[-1,5],'ylim',[-2,6]);
+title('True Answer');
+
+
+(我妻 広明)
+
+吉田 裕貴, 2016-06-02 12:00 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+藤田 啓斗, 2016-06-02 12:01 提出 
+自由記述式
+S =(15*x)/28
+ 
+ 
+S =(13*x^3)/28 + (15*x)/28
+ 
+ 
+S =- (37*x^3)/28 + (75*x^2)/14 - (135*x)/28 + 25/14
+ 
+ 
+S =(23*x^3)/28 - (15*x^2)/2 + (585*x)/28 - 215/14
+ 
+ 
+S =x^3/28 - (3*x^2)/7 - (9*x)/28 + 41/7
+ 
+ 
+S =57/7 - (57*x)/28
+
+==============================MATLAB code===================================
+clear all;
+format
+syms x
+n=4;
+m=n-1;
+x1=[0 1 2 3 4 ];
+f=[0 1 3 2 0 ];
+h=[];
+a=[0];
+b=[0];
+c=[];
+d=[0];
+A=[];
+B=[];
+C=[];
+D=[];
+
+for k=1:n
+    s=x1(k+1)-x1(k);
+    h=[h s];
+end
+
+s=(f(2)-f(1))/h(1);
+c=[c s];
+    
+for k=2:n
+    s=h(k-1)/(h(k)+h(h(k-1)));
+    a=[a s];
+    s=1-a(k);
+    b= [b s];
+    s=(f(k+1)-f(k))/h(k);
+    c=[c s];
+end
+
+for k=2:n
+    s=6*(c(k)-c(k-1))/(h(k)+h(k-1));
+    d=[d s];
+end
+
+for k=2:n
+    B=[];
+    C=[];
+    D=[];
+    if  k>3
+        for j=1:(k-3)
+            B=[B 0];
+        end
+    end
+    if k==2
+        for j=1:m-2
+            C=[C 0];
+        end
+        A=[2 b(k) C];
+    else
+        B=[B a(n-1) 2 b(n)];
+        if ((m+2)-k)>0
+            for j=1:(m-k)
+                C=[C 0];
+            end
+            B=[B C];
+            for j=1:m
+                D=[D B(j)];
+            end
+            A=[A;D];
+        else
+            for j=1:m
+                D=[D B(j)];
+            end
+            A=[A;B];
+        end
+    end
+end
+TA=inv(A);
+D=[];
+for k=2:n
+    D=[D;d(k)];
+end
+M=TA*D;
+M=[0;M;0];
+
+Sd= (-1*(h(1)*(2*M(1)+M(1+1)))/6)+(f(1+1)-f(1))/h(1);
+S=Sd*(x-x1(1))+f(1);
+S=combine(S)
+for j=1:n
+    S =((M(j)/(6*h(j)))*(x1(j+1)-x)^3)+((M(j+1)/(6*h(j)))*(x-x1(j))^3)+((f(j)-((M(j)*(h(j)^2))/6))*((x1(j+1)-x)/h(j)))+((f(j+1)-((M(j+1)*(h(j)^2))/6))*((x-x1(j))/h(j)));
+    S=expand(S)
+end
+Sd= (M(n+1)*h(n))/3+(M(n)*h(n))/6+(f(n+1)-f(n))/h(n-1);
+
+S= Sd*(x-x1(n+1))+f(n+1);
+S=expand(S)
+評価（100点満点） 3点
+[全体公開]○(我妻 広明)
+
+木山 雄太, 2016-06-02 12:01 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+朝比奈 涼, 2016-06-02 12:01 提出 
+自由記述式
+S =(15*x)/28
+ 
+ 
+S =(13*x^3)/28 + (15*x)/28
+ 
+ 
+S =- (37*x^3)/28 + (75*x^2)/14 - (135*x)/28 + 25/14
+ 
+ 
+S =(23*x^3)/28 - (15*x^2)/2 + (585*x)/28 - 215/14
+ 
+ 
+S =x^3/28 - (3*x^2)/7 - (9*x)/28 + 41/7
+ 
+ 
+S =57/7 - (57*x)/28
+評価（100点満点） 3点
+[全体公開]○(我妻 広明)
+
+JOSHI RAVI PRAKASH, 2016-06-02 12:01 提出 
+自由記述式
+⎡⎣⎢⎢⎢⎢⎢⎢⎢(15∗x)/28(13∗x3)/28+(15∗x)/28−(37∗x3)/28+(75∗x2)/14−(135∗x)/28+25/14(23∗x3)/28−(15∗x2)/2+(585∗x)/28−215/14x3/28−(3∗x2)/7−(9∗x)/28+41/757/7−(57∗x)/28⎤⎦⎥⎥⎥⎥⎥⎥⎥
+15x
+28
+13
+x
+3
+2815x
+28
+37
+x
+3
+2875
+x
+2
+14135x
+2825
+14
+23
+x
+3
+2815
+x
+2
+2585x
+28215
+14
+x
+3
+283
+x
+2
+79x
+2841
+7
+57
+757x
+28
+評価（100点満点） 3点
+[全体公開]○Spline answer is correct. But there are no answer for Lagrange interoperation and MATLAB plot for two curves.(我妻 広明)
+
+齊藤 明王, 2016-06-02 12:02 提出 
+自由記述式
+S =(15*x)/28
+S =(13*x^3)/28 + (15*x)/28
+S =- (37*x^3)/28 + (75*x^2)/14 - (135*x)/28 + 25/14
+S =(23*x^3)/28 - (15*x^2)/2 + (585*x)/28 - 215/14
+S =x^3/28 - (3*x^2)/7 - (9*x)/28 + 41/7
+S =57/7 - (57*x)/28
+
+評価（100点満点） 3点
+[全体公開]○(我妻 広明)
+
+大濵 勇平, 2016-06-02 12:02 提出 
+自由記述式
+ープログラムー
+
+スプライン補間法：
+clear all
+
+f=[1,3,2,0];
+a=zeros(4,1);
+b=zeros(4,1);
+c=zeros(4,1);
+d=zeros(4,1);
+for j=2:1:3
+    a(j)=0.5;
+    b(j)=1-a(j);
+end;
+for j=1:1:3
+    c(j)=f(j+1)-f(j);
+end;
+for j=2:1:3
+    d(j)=3*(c(j)-c(j-1));
+end;
+
+A=[2 0.5;0.5 2];
+D=[d(2);d(3)];
+M=(inv(A))*D;
+M=[0;M(1);M(2);0];
+
+syms X
+x=[1 2 3 4];
+
+j=1;
+char((-1*M(j)/3-M(j+1)/6+(f(j+1)-f(j)))*(X-x(j))+f(j))
+
+for j=1:3
+    char((M(j)/6)*((x(j+1)-X)^3)+(M(j+1)/6)*((X-x(j))^3)+(f(j)-M(j)/6)*(x(j+1)-X)+(f(j+1)-M(j+1)/6)*(X-x(j)))
+end;
+
+j=4;
+char((M(j)/3-M(j-1)/6+(f(j)-f(j-1)))*(X-x(j))+f(j))
+
+ラグランジュ補間法：
+clear all
+x=[1.00 2.00 3.00 4.00];
+f=[1.00 3.00 2.00 0.00];
+
+syms X;
+F=0;
+for i=1:4
+    F1=1;
+    x_reject=setdiff(x,x(i));
+    for j=1:numel(x_reject)
+        F1=F1*((X-x_reject(j))/(x(i)-x_reject(j)));
+    end;
+    F=F+F1*f(i);
+end;
+F
+
+==================================
+ー求めた式ー
+
+スプライン補間法：
+(41*X)/15 - 26/15　　　　　　　　　　　　　　　　　　　　　　　(-∞<x≦0)
+(41*X)/15 - (11*(X - 1)^3)/15 - 26/15　　　　　　　　　　　　  (1<x≦2)
+(11*(X - 3)^3)/15 - (X - 2)^3/15 - (5*X)/3 + 106/15　　　　　(2<x≦3)
+(X - 4)^3/15 - (31*X)/15 + 124/15　　　　　　　　　　　　　 　 (3<x≦4)
+116/15 - (29*X)/15　　　　　　　　　　　　　　　　　　　　　　 (4≦x<+∞)
+
+ラグランジュ補間法：
+
+ 
+3*(X/2 - 2)*(X - 1)*(X - 3) - (X/2 - 3/2)*(X/3 - 4/3)*(X - 2) - 2*(X/2 - 1/2)*(X - 2)*(X - 4)
+ 
+ 
+評価（100点満点） 4点
+[全体公開]○残念ながら、スプラインも計算ミスがあり、ラグランジュ補間も一カ所指定された点を通っていません（おそらく項を一つ計算し忘れたのか）。
+
+====確認用コード===
+fg=[0 1 3 2 0];
+xx=[0 1 2 3 4];
+
+figure(9); clf
+
+subplot(1,2,1); 
+x=-1:0.1:5;
+
+p1= @(X) 3*(X/2 - 2).*(X - 1).*(X - 3) - (X/2 - 3/2).*(X/3 - 4/3).*(X - 2) - 2*(X/2 - 1/2).*(X - 2).*(X - 4)
+
+plot(x,p1(x),'b-'), hold on;
+plot(xx,fg,'r.','MarkerSize',20), hold on;
+set(gca,'xlim',[-1,5],'ylim',[-2,6]);
+title('your answer');
+
+p1=@(x) (3*x.*(x - 1).*(x - 3).*(x - 4))/4 - (x.*(x - 1).*(x - 2).*(x - 4))/3 - (x.*(x - 2).*(x - 3).*(x - 4))/6;
+subplot(1,2,2); 
+  plot(x,p1(x),'b-'), hold on;
+plot(xx,fg,'r.','MarkerSize',20), hold on;
+set(gca,'xlim',[-1,5],'ylim',[-2,6]);
+title('Right answer');
+
+(我妻 広明)
+
+水谷 龍希, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+渡辺 裕司, 2016-06-02 12:02 提出 
+自由記述式
+3次自然スプライン補間関数
+S(x)  = (15*x)/28
+            (13*x^3)/28 + (15*x)/28
+            - (37*x^3)/28 + (75*x^2)/14 - (135*x)/28 + 25/14
+            (23*x^3)/28 - (15*x^2)/2 + (585*x)/28 - 215/14
+            x^3/28 - (3*x^2)/7 - (9*x)/28 + 41/7
+            57/7 - (57*x)/28
+評価（100点満点） 3点
+[全体公開]○(我妻 広明)
+
+松山 公弥, 2016-06-02 12:02 提出 
+自由記述式
+(28/15)*x+2/15     (x<=1)
+- (13*x^3)/15 + (13*x^2)/5 + (14*x)/15 - 7/3   (1<=x<=2)
+(4*x^3)/3 - (53*x^2)/5 + (77*x)/3 - 83/5   (2<=x<=3)
+- (7*x^3)/15 + (28*x^2)/5 - (344*x)/15 + 32   (3=<x<=4)
+(-8/15)*x+32/15     (4<=x)
+評価（100点満点） 2点
+[全体公開]○(我妻 広明)
+
+森 逸平, 2016-06-02 12:02 提出 
+自由記述式
+=======================================================
+syms x
+N=5; 
+xj = sym('x',[N 1]);
+fj = sym('f',[N 1]);
+hj = sym('h',[N-1 1]);
+
+Mj = sym('M',[N 1]);
+Sj = sym('S',[N 1]);
+
+xj=[0 1 2 3 4];
+fj=[0 1 3 2 0];
+
+hj=xj(2:N)-xj(1:N-1);
+aj=hj(1:N-2)./(hj(2:N-1)+hj(1:N-2));
+bj=1-aj;
+cj=(fj(2:N)-fj(1:N-1))./hj;
+dj=[6*(cj(2:N-1)-cj(1:N-2))./(hj(2:N-1)+hj(1:N-2))]';
+
+diag_elem=2.*ones(1,N-2);
+Aij=diag(diag_elem);
+for k=2:N-2
+Aij(k,k-1)=aj(k);
+Aij(k-1,k)=bj(k-1);
+end 
+%------------
+
+% Aij=[2 1/2 0; 1/2 2 1/2; 0 1/2 2];
+% M=[M2 M3 M4];
+% dj=[-3 -9 3]';
+
+Eqn = Aij*Mj(2:N-1)==dj;
+
+SolvedVariables = solve(Eqn);
+cellSolutions=struct2cell(SolvedVariables); % struct -> cell
+cellSolutions{:}; 
+% matS2=cell2mat(cellfun(@double,cellSolutions,'UniformOutput', false)); %
+% cell -> mat
+
+for j=2:size(Mj,1)
+if isfield(SolvedVariables, char(Mj(j)))
+valName=char(Mj(j));
+Mval(j)=getfield(SolvedVariables, char(Mj(j)));
+stOut =sprintf('%s = %s\n',valName,char(Mval(j)));
+display(stOut);
+else 
+% display('empty');
+end
+
+end
+Mval=[Mval 0];
+for j=1:size(Mj,1)-1
+Sj(j)=Mval(j)/(6*hj(j))*(xj(j+1)-x)^3+Mval(j+1)/(6*hj(j))*(x-xj(j))^3 ...
++(fj(j)-Mval(j)*hj(j)^2/6)*(xj(j+1)-x)/hj(j)+(fj(j+1)-Mval(j+1)*hj(j)^2/6)*(x-xj(j))/hj(j);
+
+end
+
+finalSj=[subs(diff(Sj(1)),x,xj(1))*(x-xj(1))+fj(1); 
+Sj(1:N-1); 
+subs(diff(Sj(N-1)),x,xj(N))*(x-xj(N))+fj(N);]
+
+ExpFinalSj=expand(finalSj);
+display(ExpFinalSj);
+=======================================================
+評価（100点満点） 1点
+[全体公開]○あれ？　プログラムがあるのに、答えが一つもない。(我妻 広明)
+
+日巻 智貴, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+黒岩 将, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+石田 琢朗, 2016-06-02 12:02 提出 
+自由記述式
+なし
+評価（100点満点） 0点
+[全体公開]○(我妻 広明)
+
+中村 優樹, 2016-06-02 12:02 提出 
+自由記述式
+S =(15*x)/28
+ 
+S =(13*x^3)/28 + (15*x)/28
+ 
+S =- (37*x^3)/28 + (75*x^2)/14 - (135*x)/28 + 25/14
+ 
+S =(23*x^3)/28 - (15*x^2)/2 + (585*x)/28 - 215/14
+ 
+S =x^3/28 - (3*x^2)/7 - (9*x)/28 + 41/7
+ 
+S =57/7 - (57*x)/28
+評価（100点満点） 3点
+[全体公開]○(我妻 広明)
+
+藤野 慶汰, 2016-06-02 12:02 提出 
+自由記述式
+S =(15*x)/28
+ 
+ 
+S =(13*x^3)/28 + (15*x)/28
+ 
+ 
+S =- (37*x^3)/28 + (75*x^2)/14 - (135*x)/28 + 25/14
+ 
+ 
+S =(23*x^3)/28 - (15*x^2)/2 + (585*x)/28 - 215/14
+ 
+ 
+S =x^3/28 - (3*x^2)/7 - (9*x)/28 + 41/7
+ 
+ 
+S =57/7 - (57*x)/28
+評価（100点満点） 3点
+[全体公開]○(我妻 広明)
+
+スティナン アナンタラッタナチャイ, 2016-06-02 12:02 提出 
+自由記述式
+First find vector M = [2.7857 -5.1429 -0.2143]
+substitute this value into the 3rd cubic spline equation
+評価（100点満点） 1点
+[全体公開]○??(我妻 広明)
+
+鳴海 和, 2016-06-02 12:03 提出 
+自由記述式
+all clear;
+syms a c d h b n f 
+
+x1=[0 1 2 3 4];
+f1=[0 1 3 2 0];
+
+h(0)=1;
+h(1)=1;
+h(2)=1;
+h(3)=1;
+
+a(n)=h(n-1)/(h(n)+h(n-1));
+b(n)=1-a(n);
+c(n)=(f(n+1)-f(n))/h(n);
+d(n)=6*(c(n)-c(n-1))/(h(n)+h(n-1));
+
+gyouretu=[2 b(1) 0;a(2) 2 b(2) 0;b()]
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+萩尾 元晴, 2016-06-02 12:03 提出 
+自由記述式
+なし
+評価（100点満点） 1点
+[全体公開]○(我妻 広明)
+
+Thewsuwan Srisupang, 2016-06-02 12:04 提出 
+自由記述式
+Lagrange Interpolation ;
+figure;clf;clear all;close all
+t=0:0.05:1;
+x = t; x1 = 1; x2 = 2 ;x3 = 3; x4 = 4;
+f = 0; f1 = 1; f2 = 3; f3 = 2; f4 = 0;
+count = 1;
+for t = 0:0.05:1 
+p1 = ((t-x2)*(t-x3)./(x1-x2)*(x1-x3)).*f1 + ((x1-x1)*(x1-x3)./(x2-x1)*(x2-x3)).*f2 + ((x1-x1)*(x1-x2)./(x3-x1)*(x3-x2)).*f3;
+p2 = ((x2-x2)*(x2-x3)./(x1-x2)*(x1-x3)).*f1 + ((x2-x1)*(x2-x3)./(x2-x1)*(x2-x3)).*f2 + ((x2-x1)*(x2-x2)./(x3-x1)*(x3-x2)).*f3;
+p3 = ((x3-x2)*(x3-x3)./(x1-x2)*(x1-x3)).*f1 + ((x3-x1)*(x3-x3)./(x2-x1)*(x2-x3)).*f2 + ((x3-x1)*(x3-x2)./(x3-x1)*(x3-x2)).*f3;
+
+P3(count,1) = p1+p2+p3;
+count = count+1;
+end
+plot(P3)
+xlabel('t')
+ylabel('P3')
+
+============================================================================
+Spline interpolation;
+評価（100点満点） 1点
+[全体公開]○Your program does not pass all the given data.
+
+=====
+figure;clf;
+clear all;close all
+t=0:0.05:1;
+x = t; x1 = 1; x2 = 2 ;x3 = 3; x4 = 4;
+f = 0; f1 = 1; f2 = 3; f3 = 2; f4 = 0;
+count = 1;
+for t = 0:0.05:1 
+p1 = ((t-x2)*(t-x3)./(x1-x2)*(x1-x3)).*f1 + ((x1-x1)*(x1-x3)./(x2-x1)*(x2-x3)).*f2 + ((x1-x1)*(x1-x2)./(x3-x1)*(x3-x2)).*f3;
+p2 = ((x2-x2)*(x2-x3)./(x1-x2)*(x1-x3)).*f1 + ((x2-x1)*(x2-x3)./(x2-x1)*(x2-x3)).*f2 + ((x2-x1)*(x2-x2)./(x3-x1)*(x3-x2)).*f3;
+p3 = ((x3-x2)*(x3-x3)./(x1-x2)*(x1-x3)).*f1 + ((x3-x1)*(x3-x3)./(x2-x1)*(x2-x3)).*f2 + ((x3-x1)*(x3-x2)./(x3-x1)*(x3-x2)).*f3;
+
+P3(count,1) = p1+p2+p3;
+count = count+1;
+end
+plot(P3),hold on
+xlabel('t')
+ylabel('P3')
+
+fg=[0 1 3 2 0];
+xx=[0 1 2 3 4];
+plot(xx,fg,'r.','MarkerSize',20), hold on;
+% set(gca,'xlim',[-1,5],'ylim',[-2,6]);
+title('your answer');(我妻 広明)
+
+Labuguen Rollyn, 2016-06-02 12:04 提出 
+自由記述式
+=====================================================================================
+[0<x<1]     S(x)= - x^3/28 + (57*x)/28
+[1<x<2]     S(x)= (51*x)/28 - (6*(x - 1)^3)/7 + (x - 2)^3/28 + 3/14
+[2<x<3]     S(x)= (13*(x - 2)^3)/28 - (93*x)/28 + (6*(x - 3)^3)/7 + 21/2
+[3<x<4]     S(x)= 15/7 - (13*(x - 4)^3)/28 - (15*x)/28
+
+L(x)=(x^3 - 2*x2 -3*x^2 +6*x -4*x^2 +20*x-8)/(-6) +3*(x^3 - x^2 -7*x^2 +17*x -12)/(2) +2*(x^3 - 7*x^2 12*x -8)/(-4)
+評価（100点満点） 5点
+[全体公開]○L(x) was wrong. Please check the following program.
+
+=======
+fg=[0 1 3 2 0];
+xx=[0 1 2 3 4];
+
+figure(9); clf
+
+subplot(1,2,1); 
+x=-1:0.1:5;
+
+p1= @(x) (x.^3 - 2*x2 -3*x.^2 +6*x -4*x.^2 +20*x-8)/(-6) +3*(x.^3 - x.^2 -7*x.^2 +17*x -12)/(2) +2*(x.^3 - 7*x.^2+12*x -8)/(-4)
+
+plot(x,p1(x),'b-'), hold on;
+plot(xx,fg,'r.','MarkerSize',20), hold on;
+% set(gca,'xlim',[-1,5],'ylim',[-2,6]);
+title('your answer'); 
+
+p1=@(x) (3*x.*(x - 1).*(x - 3).*(x - 4))/4 - (x.*(x - 1).*(x - 2).*(x - 4))/3 - (x.*(x - 2).*(x - 3).*(x - 4))/6;
+subplot(1,2,2); 
+  plot(x,p1(x),'b-'), hold on;
+plot(xx,fg,'r.','MarkerSize',20), hold on;
+set(gca,'xlim',[-1,5],'ylim',[-2,6]);
+title('Right answer');
+
+
+(我妻 広明)
+
+
+一括して「評価○・全体公開」にする
+
